@@ -1,0 +1,30 @@
+
+--------------- List of CLIs in show tech-support ipv6-acl ---------------
+
+ show process pfilter_ma location all 
+
+ show pfilter-netio trace all 
+
+ show access-lists ipv6 usage pfilter location 0/0/CPU0  
+
+ show access-lists ipv6 trace client netio both location 0/0/CPU0  
+
+ show access-lists ipv6 trace client pfilter_ea both location 0/0/CPU0  
+
+ show process pfilter_ea location 0/0/CPU0  
+
+ show system statistics component ipv6-acl 
+
+ show system statistics component ipv6-acl-mgr 
+
+ show netio db dll 
+
+ show ACL SHIP counters common 
+
+ show ACL SHIP counters IPv6 
+
+ show process blocked location 0/0/CPU0  
+
+ show IPv6 ACL Based Forwarding DB 
+
+ show IPv6 ACL Based Forwarding summary 

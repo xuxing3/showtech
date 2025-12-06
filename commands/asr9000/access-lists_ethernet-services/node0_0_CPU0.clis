@@ -1,0 +1,20 @@
+
+--------------- List of CLIs in show tech-support es-acl ---------------
+
+ show process pfilter_ma 
+
+ show pfilter-netio trace all 
+
+ show access-lists ethernet-services usage pfilter location 0/0/CPU0  
+
+ show access-lists ethernet-services trace client pfilter_ea both location 0/0/CPU0  
+
+ show process pfilter_ea location 0/0/CPU0  
+
+ show system statistics component es-acl 
+
+ show system statistics component es-acl-mgr 
+
+ show netio db dll 
+
+ show process blocked location 0/0/CPU0  

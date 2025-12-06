@@ -1,0 +1,52 @@
+
+--------------- List of CLIs in show tech-support es-acl ---------------
+
+ show access-lists ethernet-services maximum detail 
+
+ show access-lists ethernet-services summary 
+
+ show access-lists ethernet-services standby summary 
+
+ show access-lists ethernet-services 
+
+ show access-lists ethernet-services usage pfilter location all 
+
+ show process es_acl_mgr 
+
+ show process es_acl_act_agent 
+
+ show access-lists ethernet-services trace all 
+
+ show access-lists ethernet-services trace both 
+
+ show pfilter-ma trace all location all 
+
+ show nrs handles data class ACL_USAGE 
+
+ show nrs handles data class NRS_CLASS_ACL_ES_NAME 
+
+ show access-lists ethernet-services standby 
+
+ show install active 
+
+ show configuration commit list detail 
+
+ show configuration commit changes all 
+
+ show process pfilter_ma 
+
+ show pfilter-netio trace all 
+
+ show access-lists ethernet-services usage pfilter location 0/RP0/CPU0  
+
+ show access-lists ethernet-services trace client pfilter_ea both location 0/RP0/CPU0  
+
+ show process pfilter_ea location 0/RP0/CPU0  
+
+ show system statistics component es-acl 
+
+ show system statistics component es-acl-mgr 
+
+ show netio db dll 
+
+ show process blocked location 0/RP0/CPU0  

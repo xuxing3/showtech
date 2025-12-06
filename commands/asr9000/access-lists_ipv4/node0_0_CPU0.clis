@@ -1,0 +1,34 @@
+
+--------------- List of CLIs in show tech-support ipv4-acl ---------------
+
+ show process pfilter_ma 
+
+ show process pfilter_ea location 0/0/CPU0  
+
+ show access-lists ipv4 trace all 
+
+ show access-lists ipv4 trace both 
+
+ show access-lists ipv4 usage pfilter location 0/0/CPU0  
+
+ show access-lists ipv4 trace client netio both location 0/0/CPU0  
+
+ show access-lists ipv4 trace client pfilter_ea both location 0/0/CPU0  
+
+ show pfilter-netio trace all 
+
+ show system statistics component ipv4-acl 
+
+ show system statistics component ipv4-acl-mgr 
+
+ show netio db dll 
+
+ show ACL SHIP counters common 
+
+ show ACL SHIP counters IPv4 
+
+ show process blocked location 0/0/CPU0  
+
+ show IPv4 ACL Based Forwarding DB 
+
+ show IPv4 ACL Based Forwarding summary 

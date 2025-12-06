@@ -1,0 +1,194 @@
+
+--------------- List of CLIs in show tech-support cfgmgr ---------------
+
+ show cfgmgr trace location 0/0/CPU0  
+
+ show process cfgmgr-rp location 0/0/CPU0  
+
+ show sysdb trace verification location 0/0/CPU0  
+
+ show process config_lr location 0/0/CPU0  
+
+ show process cfgmgr-lc location 0/0/CPU0  
+
+ show process config_node location 0/0/CPU0  
+
+ show rdsfs trace boot location 0/0/CPU0  
+
+ show rdsfs trace error location 0/0/CPU0  
+
+ show rdsfs trace iofunc location 0/0/CPU0  
+
+ show rdsfs trace internal location all 
+
+ show processes blocked 
+
+ show sysdb trace medusa client fast location 0/0/CPU0  
+
+ show sysdb trace medusa server fast location 0/0/CPU0  
+
+ show sysdb trace internal location 0/0/CPU0  
+
+ show sysdb trace config-grp location 0/0/CPU0  
+
+ show sysdb trace access location 0/0/CPU0  
+
+ show sysdb trace clientlib edm-access location 33312 
+
+ show sysdb trace clientlib vicr location 0/0/CPU0  
+
+ show sysdb trace clientlib reconnection location 0/0/CPU0  
+
+ show sysdb trace clientlib restart-timeout location 0/0/CPU0  
+
+ show sysdb trace client-errors location 0/0/CPU0  
+
+ show sysdb trace connections location 0/0/CPU0  
+
+ show sysdb trace edm location 0/0/CPU0  
+
+ show sysdb trace explicitlocking location 0/0/CPU0  
+
+ show sysdb trace notification location 0/0/CPU0  
+
+ show sysdb trace requests location 0/0/CPU0  
+
+ show sysdb trace responses location 0/0/CPU0  
+
+ show sysdb trace restart-timeout location 0/0/CPU0  
+
+ show sysdb trace startup-edm location 0/0/CPU0  
+
+ show sysdb trace transactions location 0/0/CPU0  
+
+ show sysdb trace vicr location 0/0/CPU0  
+
+ show sysdb trace vs location 0/0/CPU0  
+
+ show sysdb trace medusa client bucket location 0/0/CPU0  
+
+ show sysdb connections detail location 0/0/CPU0  
+
+ show sysdb medusa connections detail location 0/0/CPU0  
+
+ show sysdb medusa requests location 0/0/CPU0  
+
+ show sysdb medusa registrations edm location 0/0/CPU0  
+
+ show sysdb medusa registrations notification location 0/0/CPU0  
+
+ show sysdb medusa registrations startup-edm location 0/0/CPU0  
+
+ show sysdb medusa registrations verification location 0/0/CPU0  
+
+ show sysdb medusa registrations vs location 0/0/CPU0  
+
+ show sysdb performance location 0/0/CPU0  
+
+ show sysdb registrations edm detail location 0/0/CPU0  
+
+ show sysdb registrations notification detail location 0/0/CPU0  
+
+ show sysdb registrations startup-edm detail location 0/0/CPU0  
+
+ show sysdb registrations verification detail location 0/0/CPU0  
+
+ show sysdb registrations vs detail location 0/0/CPU0  
+
+ show sysdb requests location 0/0/CPU0  
+
+ show sysdb statistics advanced location 0/0/CPU0  
+
+ show sysdb statistics clients location 0/0/CPU0  
+
+ show sysdb statistics clients verification location 0/0/CPU0  
+
+ show sysdb statistics clients application location 0/0/CPU0  
+
+ show sysdb statistics clients last 1 location 0/0/CPU0  
+
+ show sysdb statistics clients last 5 location 0/0/CPU0  
+
+ show sysdb statistics clients last 30 location 0/0/CPU0  
+
+ show sysdb summary location 0/0/CPU0  
+
+ show sysdb trace medusa server slow location 0/0/CPU0  
+
+ show sysdb trace medusa client slow location 0/0/CPU0  
+
+ show sysdb trace medusa client client-errors location 0/0/CPU0  
+
+ show sysdb trace medusa client access location 0/0/CPU0  
+
+ show sysdb registrations context-store location 0/0/CPU0  
+
+ show epm trace boot location 0/0/CPU0  
+
+ show epm trace config location 0/0/CPU0  
+
+ show sysdb trace clientlib file location 0/0/CPU0  
+
+ show sysdb trace lock-debugs location 0/0/CPU0  
+
+ show sysdb trace lock-errors location 0/0/CPU0  
+
+ show sysdb trace clientlib event location 0/0/CPU0  
+
+ show sysdb trace clientlib suspend location 0/0/CPU0  
+
+ show processes sysdb_svr_local location 0/0/CPU0  
+
+ show processes sysdb_mc location 0/0/CPU0  
+
+ show processes files 376 details location 0/0/CPU0  
+
+ show sysdb trace medusa client lwm location 0/0/CPU0  
+
+ show sysdb trace clientlib edm-helper location 33312 
+
+ show processes block 
+
+ follow process 5768 iteration 1 
+
+ follow process  iteration 1 
+
+ follow process 5670 iteration 1 
+
+ follow process 5735 iteration 1 verbose 
+
+ show rdsfs trace boot 
+
+ show rdsfs trace error 
+
+ show rdsfs trace internal 
+
+ show rdsfs trace iofunc 
+
+ show rdsfs trace crc 
+
+ show rdsfs trace smart-idt 
+
+ show proc blocked 
+
+ show system-statistics component rdsfs 
+
+ show rds trace process rdsfs_svr all 
+
+ run cat /dev/shmem/rdsfs_svr.log 
+
+ show process rdsfs_svr 
+
+ run cat /dev/shmem/mountfile1.log 
+
+ run cat /dev/shmem/mountfile2.log 
+
+ run cat /dev/shmem/rdsfs/mnttab1.ckpt 
+
+ run cat /dev/shmem/rdsfs/mnttab2.ckpt 
+
+ run cat /dev/shmem/rdsfs/tabmnt1.ckpt 
+
+ run cat /dev/shmem/rdsfs/tabmnt2.ckpt 
+
+ run cat /tmp/rdsfs_lib.log 

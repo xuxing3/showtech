@@ -1,0 +1,320 @@
+
+--------------- List of CLIs in show tech-support cfgmgr ---------------
+
+ admin show platform 
+
+ show platform 
+
+ show running-config 
+
+ show configuration failed startup 
+
+ show configuration failed startup previous 1 
+
+ show configuration failed startup previous 2 
+
+ show configuration failed startup previous 3 
+
+ show configuration failed startup previous 4 
+
+ show configuration history detail 
+
+ show configuration sessions detail 
+
+ show cfgmgr commitdb 
+
+ show configuration lock 
+
+ --------------- 
+
+ ls -lLR /misc/config//config/lr 
+
+ ls -lLR /misc/config//config/running/alternate_cfg 
+
+ cat /misc/config//config/running/alternate_cfg/router.cfg 
+
+ cat /misc/config//config/running/alternate_cfg/last_used.cfg 
+
+ show redundancy 
+
+ show media 
+
+ show version 
+
+ show logging 
+
+ show config backup trace location all 
+
+ admin show epm trace config 
+
+ admin show epm trace issu 
+
+ admin show epm trace boot 
+
+ show variables boot 
+
+ show sdr 
+
+ show health cfgmgr 
+
+ show configuration failed startup inheritance 
+
+ show sysdb trace medusa server fast shared-plane 
+
+ show sysdb trace internal shared-plane 
+
+ show sysdb trace config-grp shared-plane 
+
+ show sysdb trace verification shared-plane 
+
+ show sysdb trace access shared-plane 
+
+ show sysdb trace client-errors shared-plane 
+
+ show sysdb trace connections shared-plane 
+
+ show sysdb trace edm shared-plane 
+
+ show sysdb trace explicitlocking shared-plane 
+
+ show sysdb trace notification shared-plane 
+
+ show sysdb trace replication shared-plane 
+
+ show sysdb trace requests shared-plane 
+
+ show sysdb trace responses shared-plane 
+
+ show sysdb trace restart-timeout shared-plane 
+
+ show sysdb trace startup-edm shared-plane 
+
+ show sysdb trace transactions shared-plane 
+
+ show sysdb trace vs shared-plane 
+
+ show sysdb connections detail shared-plane 
+
+ show sysdb performance shared-plane 
+
+ show sysdb registrations edm detail shared-plane 
+
+ show sysdb registrations notification detail shared-plane 
+
+ show sysdb registrations sTartup-edm detail shared-plane 
+
+ show sysdb registrations verification detail shared-plane 
+
+ show sysdb registrations vs detail shared-plane 
+
+ show sysdb requests shared-plane 
+
+ show sysdb statistics advanced shared-plane 
+
+ show sysdb statistics client shared-plane 
+
+ show sysdb statistics clients shared-plane 
+
+ show sysdb statistics clients verification shared-plane 
+
+ show sysdb statistics clients application shared-plane 
+
+ show sysdb statistics clients last 1 shared-plane 
+
+ show sysdb statistics clients last 5 shared-plane 
+
+ show sysdb statistics clients last 30 shared-plane 
+
+ show sysdb statistics failover shared-plane 
+
+ show sysdb summary shared-plane 
+
+ show sysdb summary local_plane 
+
+ show sysdb trace medusa server slow shared-server 
+
+ show sysdb registrations context-store shared-plane 
+
+ show epm trace boot 
+
+ show epm trace config 
+
+ show sysdb trace lock-debugs shared-plane 
+
+ show sysdb trace lock-errors shared-plane 
+
+ show rds trace process sysdb_shared_sc all location all 
+
+ show rds trace process sysdb_shared_nc all location all 
+
+ show replicator trace client jid 495 location all 
+
+ show replicator trace client jid 314 location all 
+
+ show processes sysdb_shared_sc location all 
+
+ show processes sysdb_shared_nc location all 
+
+ show processes sysdb_shared_data_nc location all 
+
+ show running-config inheritance detail 
+
+ show cli history  detail 
+
+ show sysdb trace medusa server fast shared-plane standby 
+
+ show sysdb trace internal shared-plane standby 
+
+ show sysdb trace config-grp shared-plane standby 
+
+ show sysdb trace verification shared-plane standby 
+
+ show sysdb trace access shared-plane standby 
+
+ show sysdb trace client-errors shared-plane standby 
+
+ show sysdb trace connections shared-plane standby 
+
+ show sysdb trace edm shared-plane standby 
+
+ show sysdb trace explicitlocking shared-plane standby 
+
+ show sysdb trace notification shared-plane standby 
+
+ show sysdb trace replication shared-plane standby 
+
+ show sysdb trace requests shared-plane standby 
+
+ show sysdb trace responses shared-plane standby  
+
+ show sysdb trace restart-timeout shared-plane standby 
+
+ show sysdb trace startup-edm shared-plane standby 
+
+ show sysdb trace transactions shared-plane standby 
+
+ show sysdb trace vs shared-plane standby 
+
+ show sysdb connections detail shared-plane standby 
+
+ show sysdb performance shared-plane standby 
+
+ show sysdb registrations edm detail shared-plane standby 
+
+ show sysdb registrations notification detail shared-plane standby 
+
+ show sysdb registrations sTartup-edm detail shared-plane standby 
+
+ show sysdb registrations verification detail shared-plane standby 
+
+ show sysdb registrations vs detail shared-plane standby 
+
+ show sysdb requests shared-plane standby 
+
+ show sysdb statistics advanced shared-plane standby 
+
+ show sysdb statistics client shared-plane standby 
+
+ show sysdb statistics clients shared-plane standby 
+
+ show sysdb statistics clients verification shared-plane standby 
+
+ show sysdb statistics clients application shared-plane standby 
+
+ show sysdb statistics clients last 1 shared-plane standby 
+
+ show sysdb statistics clients last 5 shared-plane standby 
+
+ show sysdb statistics clients last 30 shared-plane standby 
+
+ show sysdb statistics failover shared-plane standby 
+
+ show sysdb summary shared-plane standby 
+
+ show sysdb trace medusa server slow shared-plane standby 
+
+ show sysdb registrations context-store shared-plane standby 
+
+ show sysdb trace lock-debugs shared-plane standby 
+
+ show sysdb trace lock-errors shared-plane standby 
+
+ show sdr detail 
+
+ show gsp stats server jid  343 
+
+ show gsp groups admin 
+
+ show configuration internal ccv status 
+
+ show configuration internal ccv shadow 
+
+ show config failed persistent 
+
+ show config failed persistent errors 
+
+ show config validation unsupported 
+
+ show config history 
+
+ show configuration internal ccv api-statistics detail 
+
+ show configuration internal ccv api-statistics errors 
+
+ show configuration internal ccv counters sysdb 
+
+ show configuration internal ccv counters config 
+
+ show configuration internal ccv counters translation 
+
+ show configuration internal ccv counters translation-edm 
+
+ show configuration internal ccv counters inventory 
+
+ show configuration internal ccv counters main 
+
+ show configuration internal ccv counters serviceability 
+
+ show configuration internal ccv counters shadow-config 
+
+ show configuration internal ccv counters yve 
+
+ show configuration internal ccv counters script 
+
+ show configuration internal ccv counters validation 
+
+ show configuration internal ccv counters sysdb cfg 
+
+ configuration internal ccv dump database translation 
+
+ configuration internal ccv dump database yve failures 
+
+ configuration internal ccv dump rules 
+
+ configuration internal ccv dump database capability 
+
+ show operational Config Global Validation 
+
+ List of schema files 
+
+ List of base rules files 
+
+ List of rules files 
+
+ List of capability data files 
+
+ Record of any YVE BAD_METADATA errors 
+
+ Python exception from processing any invalid YFW metadata 
+
+ show install active 
+
+ show configuration trace 
+
+ show inventory location all 
+
+ show filesystem 
+
+ show cli history brief 
+
+ show cli history detail 

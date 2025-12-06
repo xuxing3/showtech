@@ -1,0 +1,16 @@
+
+--------------- List of CLIs in show tech-support ipv6-acl ---------------
+
+ show version 
+
+ show logging 
+
+ show running-config 
+
+ show redundancy 
+
+ show platform 
+
+ show interfaces summary 
+
+ show interfaces brief 
