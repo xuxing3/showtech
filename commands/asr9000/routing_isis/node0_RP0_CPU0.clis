@@ -1,0 +1,36 @@
+
+--------------- List of CLIs in show tech-support isis ---------------
+
+ show install active 
+
+ show placement 
+
+ show processes blocked location 0/RP0/CPU0  
+
+ show processes isis 
+
+ show cpu-top-consumers location 0/RP0/CPU0  
+
+ show cpu-snapshots process isis location 0/RP0/CPU0  
+
+ show memory-top-consumers location 0/RP0/CPU0  
+
+ show memory-snapshots process isis location 0/RP0/CPU0  
+
+ show imds interface all 
+
+ show lpts bindings client-id clnl brief 
+
+ show clns statistics 
+
+ show clns pcb location 0/RP0/CPU0  
+
+ show isis xipc 
+
+ cpuinfo 
+
+ show netio clients location 0/RP0/CPU0  
+
+ show lpts pifib entry type isis brief location 0/RP0/CPU0  
+
+ show lpts pifib entry type isis location 0/RP0/CPU0  

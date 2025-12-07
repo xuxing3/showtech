@@ -1,0 +1,26 @@
+
+--------------- List of CLIs in show tech-support np ---------------
+
+ show platform 
+
+ show version 
+
+ show install active 
+
+ show install log detail 
+
+ show inventory 
+
+ show running-config 
+
+ show redundancy location all 
+
+ show logging 
+
+ show cli history detail 
+
+ show configuration history 
+
+ show issu summary 
+
+ show issu milestone clients location all 

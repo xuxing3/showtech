@@ -1,0 +1,10 @@
+
+--------------- List of CLIs in show tech-support isis ---------------
+
+ show lpts pifib hardware entry type isis location 0/0/CPU0  
+
+ show netio clients location 0/0/CPU0  
+
+ show lpts pifib entry type isis brief location 0/0/CPU0  
+
+ show lpts pifib entry type isis location 0/0/CPU0  

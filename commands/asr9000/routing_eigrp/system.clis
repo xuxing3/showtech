@@ -1,0 +1,24 @@
+
+--------------- List of CLIs in show tech-support eigrp ---------------
+
+ show version 
+
+ show_platform 
+
+ show instal active 
+
+ show redundancy detail 
+
+ show running router eigrp 
+
+ show ipv4 vrf all interface brief 
+
+ show ipv6 vrf all interface brief 
+
+ show lpts bindings brief client-id raw 
+
+ sh lpts ifib entry brief 
+
+ sh lpts ifib statistics 
+
+ show logging 

@@ -1,0 +1,80 @@
+
+--------------- List of CLIs in show tech-support bfd ---------------
+
+ show cef drop location 0/RP0/CPU0  
+
+ show bfd index-mgrs location 0/RP0/CPU0  
+
+ show bfd statistics private brief location 0/RP0/CPU0  
+
+ show bfd bundles detail location node0_0_CPU0 
+
+ show bfd bundles detail location node0_1_CPU0 
+
+ show bfd bundles detail location node0_RP0_CPU0 
+
+ show bfd bundles detail location node0_RP1_CPU0 
+
+ show bfd bundles detail location node0_6_CPU0 
+
+ show bfd bundles detail location node0_5_CPU0 
+
+ show bfd bundles detail location node0_13_CPU0 
+
+ show bfd bundles detail location node0_7_CPU0 
+
+ show bfd bundles detail location node0_2_CPU0 
+
+ show bfd bundles echo detail location node0_0_CPU0 
+
+ show bfd bundles echo detail location node0_1_CPU0 
+
+ show bfd bundles echo detail location node0_RP0_CPU0 
+
+ show bfd bundles echo detail location node0_RP1_CPU0 
+
+ show bfd bundles echo detail location node0_6_CPU0 
+
+ show bfd bundles echo detail location node0_5_CPU0 
+
+ show bfd bundles echo detail location node0_13_CPU0 
+
+ show bfd bundles echo detail location node0_7_CPU0 
+
+ show bfd bundles echo detail location node0_2_CPU0 
+
+ show bfd trace location node0_0_CPU0 
+
+ show bfd trace location node0_1_CPU0 
+
+ show bfd trace location node0_RP0_CPU0 
+
+ show bfd trace location node0_RP1_CPU0 
+
+ show bfd trace location node0_6_CPU0 
+
+ show bfd trace location node0_5_CPU0 
+
+ show bfd trace location node0_13_CPU0 
+
+ show bfd trace location node0_7_CPU0 
+
+ show bfd trace location node0_2_CPU0 
+
+ show udp brief location 0/RP0/CPU0  
+
+ show udp statistics pcb all location 0/RP0/CPU0  
+
+ show bfd ha server detail location 0/RP0/CPU0  
+
+ show bfd issu server detail location 0/RP0/CPU0  
+
+ show bfd client history location 0/RP0/CPU0  
+
+ show bfd session pending server location 0/RP0/CPU0  
+
+ show bfd agents location 0/RP0/CPU0  
+
+ show bfd lpts detail verbose location node0_2_CPU0 
+
+ show process bfd location 0/RP0/CPU0  

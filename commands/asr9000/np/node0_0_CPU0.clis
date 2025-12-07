@@ -1,0 +1,146 @@
+
+--------------- List of CLIs in show tech-support np ---------------
+
+ show process 330 location 0/0/CPU0 
+
+ show dll pid 5817 location 0/0/CPU0 
+
+ follow process 5817 iteration 2 location 0/0/CPU0 
+
+ show process 196 location 0/0/CPU0 
+
+ show dll pid 5791 location 0/0/CPU0 
+
+ follow process 5791 iteration 2 location 0/0/CPU0 
+
+ show process 191 location 0/0/CPU0 
+
+ show dll pid 5831 location 0/0/CPU0 
+
+ follow process 5831 iteration 2 location 0/0/CPU0 
+
+ run top -b -n 2 -d 2 
+
+ show controllers np summary all location 0/0/CPU0 
+
+ show controllers np crashinfo all location 0/0/CPU0 
+
+ show controllers np counters all location 0/0/CPU0 
+
+ show controllers np fabric-counters all all location 0/0/CPU0 
+
+ show drops location 0/0/CPU0 
+
+ show controllers np ports all location 0/0/CPU0 
+
+ show controllers np portmap all location 0/0/CPU0 
+
+ show controllers np interrupts all all location 0/0/CPU0 
+
+ show controllers np soft-errors all all location 0/0/CPU0 
+
+ show prm server context location 0/0/CPU0 
+
+ show prm server clinfo location 0/0/CPU0 
+
+ show prm server tcam summary all all all location 0/0/CPU0 
+
+ show prm server trace init location 0/0/CPU0 
+
+ show prm server trace error location 0/0/CPU0 
+
+ show prm server trace event location 0/0/CPU0 
+
+ show prm server trace internal location 0/0/CPU0 
+
+ show prm server trace ucode location 0/0/CPU0 
+
+ show prm server trace oir location 0/0/CPU0 
+
+ show prm client trace error location 0/0/CPU0 
+
+ show prm client trace event location 0/0/CPU0 
+
+ show prm client trace init location 0/0/CPU0 
+
+ show prm stats summary location 0/0/CPU0 
+
+ show prm stats table all location 0/0/CPU0 
+
+ show prm stats segment all location 0/0/CPU0 
+
+ show prm stats client all location 0/0/CPU0 
+
+ show pfm location 0/0/CPU0 
+
+ show uidb index location 0/0/CPU0 
+
+ show uidb index summary location 0/0/CPU0 
+
+ show uidb trace init location 0/0/CPU0 
+
+ show uidb trace error location 0/0/CPU0 
+
+ show uidb trace events location 0/0/CPU0 
+
+ show ssmh-ltrace init location 0/0/CPU0 
+
+ show ssmh-ltrace event location 0/0/CPU0 
+
+ show ssmh-ltrace error location 0/0/CPU0 
+
+ run test_prm_srh -s 
+
+ run test_prm_srh -d 
+
+ run show_np -e 0 -d hist=60 
+
+ run show_np -e 1 -d hist=60 
+
+ run np_perf -e 0 
+
+ run np_perf -e 1 
+
+ show cef vrf all summary location 0/0/CPU0 
+
+ show cef vrf all ipv6 summary location 0/0/CPU0 
+
+ show processes blocked location 0/0/CPU0 
+
+ show memory summary location 0/0/CPU0 
+
+ show processes memory detail location 0/0/CPU0 
+
+ show watchdog threshold memory default location 0/0/CPU0 
+
+ show watchdog threshold memory configured location 0/0/CPU0 
+
+ show watchdog memory-state location 0/0/CPU0 
+
+ show memory heap summary all location 0/0/CPU0 
+
+ show shmwin summary location 0/0/CPU0 
+
+ run bash /etc/init.d/topproc -c 20 
+
+ show drop location 0/0/CPU0 
+
+ run ship_show -c prm-lib-stats 
+
+ run ship_show -c prm-lib-tcam 
+
+ run ship_show -c prm-lib-srh 
+
+ run ship_show -c prm-svr-stats 
+
+ run ship_show -c prm-svr-tcam 
+
+ run ship_show -c prm-svr-srh 
+
+ run ship_show -c uidb3 
+
+ run ship_show -c uidb2 
+
+ run ship_show -c uidb 
+
+ run ship_show -c uidb_client 

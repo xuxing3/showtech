@@ -1,0 +1,40 @@
+
+--------------- List of CLIs in show tech-support bfd ---------------
+
+ show bfd client history 
+
+ show bfd summary private 
+
+ show bfd all session 
+
+ show bfd all 
+
+ show process bfd 
+
+ show install active 
+
+ show install inactive 
+
+ show bfd lpts detail verbose 
+
+ show bfd all multipath 
+
+ show bfd all session detail 
+
+ show bfd bootstrap history 
+
+ show bfd gsp detail 
+
+ show platform 
+
+ show mpls lsd forwarding application bfd detail 
+
+ show running-config bfd 
+
+ show arm conflicts 
+
+ show running-config 
+
+ show logging 
+
+ show_version 

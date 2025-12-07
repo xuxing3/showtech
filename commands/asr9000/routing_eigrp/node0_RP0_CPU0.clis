@@ -1,0 +1,26 @@
+
+--------------- List of CLIs in show tech-support eigrp ---------------
+
+ show rib vrf default ipv4 protocols  
+
+ show route vrf default ipv4 eigrp  
+
+ show route vrf default ipv4 summary  
+
+ show rib vrf all ipv4 protocols  
+
+ show route vrf all ipv4 eigrp  
+
+ show route vrf all ipv4 summary  
+
+ show rib vrf default ipv6 protocols  
+
+ show route vrf default ipv6 eigrp  
+
+ show route vrf default ipv6 summary  
+
+ show rib vrf all ipv6 protocols  
+
+ show route vrf all ipv6 eigrp  
+
+ show route vrf all ipv6 summary  

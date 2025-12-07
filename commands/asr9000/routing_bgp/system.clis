@@ -1,0 +1,158 @@
+
+--------------- List of CLIs in show tech-support bgp ---------------
+
+ show clock 
+
+ show version 
+
+ show install active 
+
+ show redundancy 
+
+ show process bgp location all 
+
+ show running-config 
+
+ show logging 
+
+ show bgp instance all table ipv4 unicast 
+
+ show bgp instance all table ipv4 multicast 
+
+ show bgp instance all table ipv4 mdt 
+
+ show bgp instance all table ipv4 tunnel 
+
+ show bgp instance all table ipv6 unicast 
+
+ show bgp instance all table ipv6 multicast 
+
+ show bgp instance all table vpnv4 unicast 
+
+ show bgp instance all table vpnv6 unicast 
+
+ show bgp instance all all all process detail 
+
+ show bgp instance all all all process performance-statistics detail 
+
+ show bgp instance all sessions 
+
+ show bgp instance all ipv4 unicast nexthop 
+
+ show bgp instance all ipv4 unicast nexthop statistics 
+
+ show bgp instance all ipv6 unicast nexthop 
+
+ show bgp instance all ipv6 unicast nexthop statistics 
+
+ show bgp instance all scale 
+
+ show bgp trace instance all location all 
+
+ show bgp instance all all all nsr detail 
+
+ show bgp instance all all all nsr detail standby 
+
+ show bgp instance all all all update-group performance-statistics 
+
+ show bgp all all update out update-group detail 
+
+ show bgp all all update out sub-group detail 
+
+ show bgp all all update out neighbor detail 
+
+ show bgp vrf all neighbors detail 
+
+ show bgp instance all vrf-db table all private 
+
+ show bgp instance all neighbor detail 
+
+ show bgp instance all all all recent-prefixes private 
+
+ show bgp instance all rpki summary 
+
+ show bgp instance all rpki summary standby 
+
+ show bgp instance all rpki server summary 
+
+ show bgp instance all rpki server summary standby 
+
+ show bgp instance all all all paths extcomm 
+
+ show bgp instance all track 
+
+ show bgp instance all all all summary 
+
+ show bgp instance all label table all detail 
+
+ show bgp instance all label table detail standby 
+
+ show bgp orr-group bpm all 
+
+ show bgp orr-group global all 
+
+ show bgp orr-group all 
+
+ show bgp ipv6 unicast orr-group all 
+
+ show bgp nexthops 
+
+ show bgp all all nexthop-set 
+
+ show bgp vrf all nexthop-set 
+
+ show route summary 
+
+ show rib tables 
+
+ show rib tables summary 
+
+ show rib statistics bgp 
+
+ show route ipv6 summary 
+
+ show rib ipv6 tables 
+
+ show rib ipv6 tables summary 
+
+ show rib ipv6 statistics bgp 
+
+ show bgp instance all bmp summary 
+
+ show bgp instance all bmp server 1 wide 
+
+ show bgp instance all bmp server 2 wide 
+
+ show bgp instance all bmp server 3 wide 
+
+ show bgp instance all bmp server 4 wide 
+
+ show bgp instance all bmp server 5 wide 
+
+ show bgp instance all bmp server 6 wide 
+
+ show bgp instance all bmp server 7 wide 
+
+ show bgp instance all bmp server 8 wide 
+
+ show bgp instance all bmp mode all all all convergence 
+
+ show bgp instance all bmp mode all all all table summary 
+
+ show bgp instance all bmp mode local-rib emulated-peers brief 
+
+ show bgp instance all bmp mode local-rib all all internal update-group 
+
+ show bgp instance all bmp mode local-rib all all internal update out emulated-peer 
+
+ show bgp instance all memory history 
+
+ show bgp instance all memory history standby 
+
+ show nsr ncd client brief 
+
+ show nsr ncd client all 
+
+ show nsr ncd queue all 
+
+ show nsr npl trace bgp error location all 

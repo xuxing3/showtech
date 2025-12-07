@@ -1,0 +1,58 @@
+
+--------------- List of CLIs in show tech-support isis ---------------
+
+ show version 
+
+ show redundancy 
+
+ show running-config inheritance detail 
+
+ show platform 
+
+ show isis summary 
+
+ show isis all afi-all safi-all topology all 
+
+ show isis database graph ipv4 
+
+ show isis database graph ipv6 
+
+ show isis unformatted all 
+
+ show lslib cache isis attributes verbose 
+
+ show lslib cache isis attributes 
+
+ show isis standby all 
+
+ show isis standby unformatted all 
+
+ show isis trace all location all 
+
+ show logging 
+
+ show isis uber-verifier trace all location all 
+
+ show clns trace location all 
+
+ show segment-routing trace 
+
+ show ipv4 int brief 
+
+ show ipv6 int brief 
+
+ show route afi-all safi-all topology all isis 
+
+ show route afi-all safi-all topology all 
+
+ show isis segment-routing prefix-sid-map active-policy 
+
+ show isis segment-routing prefix-sid-map backup-policy 
+
+ show isis standby segment-routing prefix-sid-map active-policy 
+
+ show isis standby segment-routing prefix-sid-map backup-policy 
+
+ show cli history detail 
+
+ show configuration history detail 

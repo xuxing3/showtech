@@ -1,0 +1,176 @@
+
+--------------- List of CLIs in show tech-support ospfv3 ---------------
+
+ show version 
+
+ show install active 
+
+ show redundancy 
+
+ show running router ospfv3  
+
+ show process ospfv3 location all 
+
+ show ospfv3    
+
+ show ospfv3    vrf all 
+
+ show ospfv3    summary 
+
+ show ospfv3    vrf all summary 
+
+ show ospfv3    interface 
+
+ show ospfv3    vrf all interface 
+
+ show ospfv3    virtual-links 
+
+ show ospfv3    vrf all virtual-links 
+
+ show ospfv3    vrf all sham-links 
+
+ show ospfv3    neighbor detail 
+
+ show ospfv3    vrf all neighbor detail 
+
+ show ospfv3    database database-summary 
+
+ show ospfv3    vrf all database database-summary 
+
+ show ospfv3    database database-summary detail 
+
+ show ospfv3    vrf all database database-summary detail 
+
+ show ospfv3    database router 
+
+ show ospfv3    database router self-originate 
+
+ show ospfv3    vrf all database router 
+
+ show ospfv3    vrf all database router self-originate 
+
+ show ospfv3    database network 
+
+ show ospfv3    stat prot 
+
+ show ospfv3    stat raw-io 
+
+ show ospfv3    stat rib-batch 
+
+ show ospfv3    stat rib-thread 
+
+ show ospfv3    stat prefix-priority 
+
+ show ospfv3    stat nsr 
+
+ show ospfv3    stat npl 
+
+ show ospfv3    border-routers 
+
+ show ospfv3    vrf all border-routers 
+
+ show ospfv3   retransmission-list 
+
+ show ospfv3   vrf all retransmission-list 
+
+ show ospfv3   request-list 
+
+ show ospfv3   vrf all request-list 
+
+ show ospfv3    flood-list 
+
+ show ospfv3    vrf all flood-list 
+
+ show ospfv3    maxage-list 
+
+ show ospfv3    vrf all maxage-list 
+
+ show ospfv3    bad-checksum 
+
+ show ospfv3    stat issu 
+
+ show ospfv3   standby 
+
+ show ospfv3   standby vrf all 
+
+ show ospfv3   standby summary 
+
+ show ospfv3   standby vrf all summary 
+
+ show ospfv3   standby interface 
+
+ show ospfv3   standby vrf all interface 
+
+ show ospfv3   standby virtual-links 
+
+ show ospfv3   standby vrf all virtual-links 
+
+ show ospfv3   standby vrf all sham-links 
+
+ show ospfv3   standby neighbor detail 
+
+ show ospfv3   standby vrf all neighbor detail 
+
+ show ospfv3   standby database database-summary 
+
+ show ospfv3   standby vrf all database database-summary 
+
+ show ospfv3   standby database database-summary detail 
+
+ show ospfv3   standby vrf all database database-summary detail 
+
+ show ospfv3   standby database router 
+
+ show ospfv3   standby database router self-originate 
+
+ show ospfv3   standby vrf all database router 
+
+ show ospfv3   standby vrf all database router self-originate 
+
+ show ospfv3   standby database network 
+
+ show ospfv3   standby stat prot 
+
+ show ospfv3   standby stat raw-io 
+
+ show ospfv3   standby stat rib-batch 
+
+ show ospfv3   standby stat rib-thread 
+
+ show ospfv3   standby stat prefix-priority 
+
+ show ospfv3   standby stat nsr 
+
+ show ospfv3   standby stat npl 
+
+ show ospfv3   standby border-routers 
+
+ show ospfv3   standby vrf all border-routers 
+
+ show ospfv3   standby flood-list 
+
+ show ospfv3   standby vrf all flood-list 
+
+ show ospfv3   standby maxage-list 
+
+ show ospfv3   standby vrf all maxage-list 
+
+ show ospfv3   standby bad-checksum 
+
+ show ospfv3   standby stat issu 
+
+ show ipv6 interface brief 
+
+ show route ipv6 summary detail 
+
+ show route ipv6 multicast summary detail 
+
+ show route vrf all ipv6 summary 
+
+ show logging process ospfv3  
+
+ show ospfv3   active trace all 
+
+ show ospfv3   standby trace all 
+
+ show ital trace location node0_RP0_CPU0 

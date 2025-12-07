@@ -1,0 +1,440 @@
+
+--------------- List of CLIs in show tech-support ospf ---------------
+
+ show version 
+
+ show platform 
+
+ show install active 
+
+ show redundancy 
+
+ show running router ospf  
+
+ show process ospf location all 
+
+ show logging process ospf  
+
+ show ospf   
+
+ show ospf   vrf all 
+
+ show ospf   summary 
+
+ show ospf   vrf all summary 
+
+ show ospf   interface 
+
+ show ospf   vrf all interface 
+
+ show ospf   statistics interface summary 
+
+ show ospf   vrf all statistics interface summary 
+
+ show ospf   virtual-links 
+
+ show ospf   vrf all virtual-links 
+
+ show ospf   vrf all sham-links 
+
+ show ospf   neighbor detail 
+
+ show ospf   vrf all neighbor detail 
+
+ show ospf   suppressed-asbrs 
+
+ show ospf   vrf all suppressed-asbrs 
+
+ show ospf   database database-summary count-self 
+
+ show ospf   vrf all database database-summary count-self 
+
+ show ospf   database database-summary detail 
+
+ show ospf   vrf all database database-summary detail 
+
+ show ospf   database router internal self-originate 
+
+ show ospf   vrf all database router internal self-originate 
+
+ show ospf   database network internal self-originate 
+
+ show ospf   vrf all database network internal self-originate 
+
+ show ospf   database opaque-area ext-link internal self-originate 
+
+ show ospf   vrf all database opaque-area ext-link internal self-originate 
+
+ show ospf   database opaque-area router-info internal self-originate 
+
+ show ospf   vrf all database opaque-area router-info internal self-originate 
+
+ show ospf   database router internal 
+
+ show ospf   vrf all database router internal 
+
+ show ospf   database network internal 
+
+ show ospf   vrf all database network internal 
+
+ show ospf   database opaque-area ext-link internal 
+
+ show ospf   vrf all database opaque-area ext-link internal 
+
+ show ospf   database opaque-area router-info internal 
+
+ show ospf   vrf all database opaque-area router-info internal 
+
+ show ospf   statistics prot 
+
+ show ospf   database opaque-link ext-link internal self-originate 
+
+ show ospf   vrf all database opaque-link ext-link internal self-originate 
+
+ show ospf   database asbr-summary internal self-originate 
+
+ show ospf   vrf all database asbr-summary internal self-originate 
+
+ show ospf   database opaque-as traffic-eng internal self-originate 
+
+ show ospf   database opaque-link traffic-eng internal self-originate 
+
+ show ospf   database opaque-area traffic-eng internal self-originate 
+
+ show ospf   vrf all database opaque-as traffic-eng internal self-originate 
+
+ show ospf   vrf all database opaque-link traffic-eng internal self-originate 
+
+ show ospf   vrf all database opaque-area traffic-eng internal self-originate 
+
+ show ospf   topology 
+
+ show ospf   topology summary internal 
+
+ show ospf   topology fast-reroute internal all 
+
+ show ospf   topology microloop-avoidance internal all 
+
+ show ospf   firsthop-gateways 
+
+ show ospf   database opaque-link ext-link internal 
+
+ show ospf   vrf all database opaque-link ext-link internal 
+
+ show ospf   database asbr-summary internal 
+
+ show ospf   vrf all database asbr-summary internal 
+
+ show ospf   database opaque-as traffic-eng internal 
+
+ show ospf   database opaque-link traffic-eng internal 
+
+ show ospf   database opaque-area traffic-eng internal 
+
+ show ospf   vrf all database opaque-as traffic-eng internal 
+
+ show ospf   vrf all database opaque-link traffic-eng internal 
+
+ show ospf   vrf all database opaque-area traffic-eng internal 
+
+ show ospf   vrf all statistics prot 
+
+ show ospf   statistics raw-io 
+
+ show ospf   vrf all statistics raw-io 
+
+ show ospf   statistics te 
+
+ show ospf   vrf all statistics te 
+
+ show ospf   statistics spf 
+
+ show ospf   statistics rib-thread 
+
+ show ospf   statistics rib-batch 
+
+ show ospf   statistics nsr 
+
+ show ospf   message-queue 
+
+ show ospf   border-routers 
+
+ show ospf   vrf all border-routers 
+
+ show ospf   retransmission-list 
+
+ show ospf   vrf all retransmission-list 
+
+ show ospf   request-list 
+
+ show ospf   vrf all request-list 
+
+ show ospf   flood-list 
+
+ show ospf   vrf all flood-list 
+
+ show ospf   maxage-list 
+
+ show ospf   vrf all maxage-list 
+
+ show ospf   bad-checksum 
+
+ show ospf   vrf all bad-checksum 
+
+ show ospf   statistics issu 
+
+ show ospf  sid-database 
+
+ show ospf  srlg database 
+
+ show ospf   srlg database 
+
+ show ospf   segment-routing adjacency-sids detail 
+
+ show ospf   segment-routing policies detail 
+
+ show ospf   segment-routing prefix-sid-map active-policy detail 
+
+ show ospf   segment-routing prefix-sid-map backup-policy detail 
+
+ show ospf   segment-routing srms-entries 
+
+ show ospf   statistics interface 
+
+ show ospf   statistics npl 
+
+ show ospf   summary-prefix 
+
+ show ospf   timers lsa-group 
+
+ show ospf   epl-routes 
+
+ show ospf   epl-routes self 
+
+ show ospf   memory-chunks 
+
+ show ospf   vrf all memory-chunks 
+
+ show ospf   topology memory-chunks 
+
+ show ospf   vrf all topology memory-chunks 
+
+ show ospf   statistics uloop-events 
+
+ show ospf   vrf all statistics uloop-events 
+
+ show ospf  standby 
+
+ show ospf  standby vrf all 
+
+ show ospf  standby summary 
+
+ show ospf  standby vrf all summary 
+
+ show ospf  standby interface 
+
+ show ospf  standby vrf all interface 
+
+ show ospf  standby statistics interface summary 
+
+ show ospf  standby vrf all statistics interface summary 
+
+ show ospf  standby virtual-links 
+
+ show ospf  standby vrf all virtual-links 
+
+ show ospf  standby vrf all sham-links 
+
+ show ospf  standby neighbor detail 
+
+ show ospf  standby vrf all neighbor detail 
+
+ show ospf  standby suppressed-asbrs 
+
+ show ospf  standby vrf all suppressed-asbrs 
+
+ show ospf  standby database database-summary count-self 
+
+ show ospf  standby vrf all database database-summary count-self 
+
+ show ospf  standby database database-summary detail 
+
+ show ospf  standby vrf all database database-summary detail 
+
+ show ospf  standby database router internal self-originate 
+
+ show ospf  standby vrf all database router internal self-originate 
+
+ show ospf  standby database network internal self-originate 
+
+ show ospf  standby vrf all database network internal self-originate 
+
+ show ospf  standby database opaque-area ext-link internal self-originate 
+
+ show ospf  standby vrf all database opaque-area ext-link internal self-originate 
+
+ show ospf  standby database opaque-area router-info internal self-originate 
+
+ show ospf  standby vrf all database opaque-area router-info internal self-originate 
+
+ show ospf  standby database router internal 
+
+ show ospf  standby vrf all database router internal 
+
+ show ospf  standby database network internal 
+
+ show ospf  standby vrf all database network internal 
+
+ show ospf  standby database opaque-area ext-link internal 
+
+ show ospf  standby vrf all database opaque-area ext-link internal 
+
+ show ospf  standby database opaque-area router-info internal 
+
+ show ospf  standby vrf all database opaque-area router-info internal 
+
+ show ospf  standby statistics prot 
+
+ show ospf  standby database opaque-link ext-link internal self-originate 
+
+ show ospf  standby vrf all database opaque-link ext-link internal self-originate 
+
+ show ospf  standby database asbr-summary internal self-originate 
+
+ show ospf  standby vrf all database asbr-summary internal self-originate 
+
+ show ospf  standby database opaque-as traffic-eng internal self-originate 
+
+ show ospf  standby database opaque-link traffic-eng internal self-originate 
+
+ show ospf  standby database opaque-area traffic-eng internal self-originate 
+
+ show ospf  standby vrf all database opaque-as traffic-eng internal self-originate 
+
+ show ospf  standby vrf all database opaque-link traffic-eng internal self-originate 
+
+ show ospf  standby vrf all database opaque-area traffic-eng internal self-originate 
+
+ show ospf  standby topology 
+
+ show ospf  standby topology summary internal 
+
+ show ospf  standby topology fast-reroute internal all 
+
+ show ospf  standby topology microloop-avoidance internal all 
+
+ show ospf  standby firsthop-gateways 
+
+ show ospf  standby database opaque-link ext-link internal 
+
+ show ospf  standby vrf all database opaque-link ext-link internal 
+
+ show ospf  standby database asbr-summary internal 
+
+ show ospf  standby vrf all database asbr-summary internal 
+
+ show ospf  standby database opaque-as traffic-eng internal 
+
+ show ospf  standby database opaque-link traffic-eng internal 
+
+ show ospf  standby database opaque-area traffic-eng internal 
+
+ show ospf  standby vrf all database opaque-as traffic-eng internal 
+
+ show ospf  standby vrf all database opaque-link traffic-eng internal 
+
+ show ospf  standby vrf all database opaque-area traffic-eng internal 
+
+ show ospf  standby vrf all statistics prot 
+
+ show ospf  standby statistics raw-io 
+
+ show ospf  standby vrf all statistics raw-io 
+
+ show ospf  standby statistics te 
+
+ show ospf  standby vrf all statistics te 
+
+ show ospf  standby statistics spf 
+
+ show ospf  standby statistics rib-thread 
+
+ show ospf  standby statistics rib-batch 
+
+ show ospf  standby statistics nsr 
+
+ show ospf  standby message-queue 
+
+ show ospf  standby border-routers 
+
+ show ospf  standby vrf all border-routers 
+
+ show ospf  standby retransmission-list 
+
+ show ospf  standby vrf all retransmission-list 
+
+ show ospf  standby request-list 
+
+ show ospf  standby vrf all request-list 
+
+ show ospf  standby flood-list 
+
+ show ospf  standby vrf all flood-list 
+
+ show ospf  standby maxage-list 
+
+ show ospf  standby vrf all maxage-list 
+
+ show ospf  standby bad-checksum 
+
+ show ospf  standby vrf all bad-checksum 
+
+ show ospf  standby statistics issu 
+
+ show ospf  standby srlg database 
+
+ show ospf  standby segment-routing adjacency-sids detail 
+
+ show ospf  standby segment-routing policies detail 
+
+ show ospf  standby segment-routing prefix-sid-map active-policy detail 
+
+ show ospf  standby segment-routing prefix-sid-map backup-policy detail 
+
+ show ospf  standby segment-routing srms-entries 
+
+ show ospf  standby statistics interface 
+
+ show ospf  standby statistics npl 
+
+ show ospf  standby summary-prefix 
+
+ show ospf  standby timers lsa-group 
+
+ show ospf  standby epl-routes 
+
+ show ospf  standby epl-routes self 
+
+ show ospf  standby memory-chunks 
+
+ show ospf  standby vrf all memory-chunks 
+
+ show ospf  standby topology memory-chunks 
+
+ show ospf  standby vrf all topology memory-chunks 
+
+ show ospf  standby statistics uloop-events 
+
+ show ospf  standby vrf all statistics uloop-events 
+
+ show ipv4 interface brief 
+
+ show route summary detail 
+
+ show route ipv4 multicast summary detail 
+
+ show route vrf all ipv4 summary 
+
+ show ospf  active trace all 
+
+ show ospf  standby trace all 

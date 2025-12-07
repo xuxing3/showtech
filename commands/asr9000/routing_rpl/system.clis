@@ -1,0 +1,127 @@
+
+--------------- List of CLIs in show tech-support repository ---------------
+
+ show install active 
+
+ show process policy_repository 
+
+ show runn rpl 
+
+ show rpl maximum 
+
+ show sysdb registrations verification job  1293 shared-plane 
+
+ show sysdb registrations vs job  1293 shared-plane 
+
+ show sysdb registrations notification job  1293 shared-plane 
+
+ show sysdb connections job  1293 shared-plane 
+
+ show sysdb registrations notification path /ipc/gl/policy_lang/policies/routing shared-plane 
+
+ +++ show process bgp +++ 
+
+ +++ show runn router bgp +++ 
+
+ +++ show process pim +++ 
+
+ +++ show runn router pim +++ 
+
+ +++ show process rip +++ 
+
+ +++ show runn router rip +++ 
+
+ +++ show process igmp +++ 
+
+ +++ show runn router igmp +++ 
+
+ +++ show process isis +++ 
+
+ +++ show runn router isis +++ 
+
+ +++ show process lisp +++ 
+
+ +++ show runn router lisp +++ 
+
+ +++ show process mldp +++ 
+
+ +++ show runn router mldp +++ 
+
+ +++ show process ospf +++ 
+
+ +++ show runn router ospf +++ 
+
+ +++ show process pim6 +++ 
+
+ +++ show runn router pim6 +++ 
+
+ +++ show process eigrp +++ 
+
+ +++ show runn router eigrp +++ 
+
+ +++ show process l2vpn +++ 
+
+ +++ show runn router l2vpn +++ 
+
+ +++ show process mldsn +++ 
+
+ +++ show runn router mldsn +++ 
+
+ +++ show process igmpsn +++ 
+
+ +++ show runn router igmpsn +++ 
+
+ +++ show process ospfv3 +++ 
+
+ +++ show runn router ospfv3 +++ 
+
+ show rpl route-policy <> uses all 
+
+ show rpl route-policy <> reference 
+
+ show rpl route-policy <> attach 
+
+
+ show rpl as-path-set all 
+
+ show rpl community-set all 
+
+ show rpl esi-set all 
+
+ show rpl etag-set all 
+
+ show rpl large-community-set all 
+
+ show rpl mac-set all 
+
+ show rpl as-set all 
+
+ show rpl ospf-area-set all 
+
+ show rpl prefix-set all 
+
+ show rpl rd-set all 
+
+ show rpl tag-set all 
+
+ show rpl extcommunity-set rt all 
+
+ show rpl extcommunity-set soo all 
+
+ show rpl extcommunity-set opaque all 
+
+ show rpl extcommunity-set seg-nh all 
+
+ show rpl extcommunity-set cost all 
+
+ show rpl extcommunity-set bandwidth all 
+
+ show rpl extcommunity-set evpn-link-bandwidth all 
+
+ show rpl policy-global references 
+
+ show sysdb stat client shared-plane 
+
+ show sysdb trace verification shared-plane 
+
+ display all the information in /ipc/gl/policy_lang sysdb space 

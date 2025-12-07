@@ -1,0 +1,56 @@
+
+--------------- List of CLIs in show tech-support bfd ---------------
+
+ show cef drop location 0/0/CPU0  
+
+ show bfd index-mgrs location 0/0/CPU0  
+
+ show bfd statistics private brief location 0/0/CPU0  
+
+ show bfd all session agent detail location 0/0/CPU0  
+
+ show bfd timer-groups location 0/0/CPU0  
+
+ show bfd session-array location 0/0/CPU0  
+
+ show bfd interfaces location 0/0/CPU0  
+
+ show bfd counters all packet invalid location 0/0/CPU0  
+
+ show bfd counters all packet private detail location 0/0/CPU0  
+
+ show bfd all session status detail location 0/0/CPU0  
+
+ show bfd all session status history location 0/0/CPU0  
+
+ show bfd all session status non-active history location 0/0/CPU0  
+
+ show bfd all location 0/0/CPU0  
+
+ show process bfd_agent location 0/0/CPU0  
+
+ show bfd ha agent detail location 0/0/CPU0  
+
+ show bfd issu agent detail location 0/0/CPU0  
+
+ show bfd session pending agent location 0/0/CPU0  
+
+ show controllers np counters all location 0/0/CPU0  
+
+ show controllers fabric fia drops ingress location 0/0/CPU0  
+
+ show controllers fabric fia drops egress location 0/0/CPU0  
+
+ show controllers fabric fia stats location 0/0/CPU0  
+
+ show lpts pifib hardware bfd discriminator table location 0/0/CPU0  
+
+ show bfd hw-offload trace events location 0/0/CPU0  
+
+ show bfd hw-offload trace error location 0/0/CPU0  
+
+ show bfd hw-offload trace info location 0/0/CPU0  
+
+ show bfd hw-offload trace packet location 0/0/CPU0  
+
+ show controllers np ports all location 0/0/CPU0  

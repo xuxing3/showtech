@@ -1,0 +1,34 @@
+
+--------------- List of CLIs in show tech-support np ---------------
+
+ show mfib route summary 
+
+ show mfib vrf all route summary 
+
+ show mfib ipv6 route summary 
+
+ show mfib vrf all ipv6 route summary 
+
+ show cef vrf all summary location 0/RP0/CPU0 
+
+ show cef vrf all ipv6 summary location 0/RP0/CPU0 
+
+ show processes blocked location 0/RP0/CPU0 
+
+ show memory summary location 0/RP0/CPU0 
+
+ show processes memory detail location 0/RP0/CPU0 
+
+ show watchdog threshold memory default location 0/RP0/CPU0 
+
+ show watchdog threshold memory configured location 0/RP0/CPU0 
+
+ show watchdog memory-state location 0/RP0/CPU0 
+
+ show memory heap summary all location 0/RP0/CPU0 
+
+ show shmwin summary location 0/RP0/CPU0 
+
+ run bash /etc/init.d/topproc -c 20 
+
+ show drop location 0/RP0/CPU0 
