@@ -1,0 +1,22 @@
+
+--------------- List of CLIs in show tech-support ZTP ---------------
+
+ show version details 
+
+ show running-config 
+
+ show install active 
+
+ show redundancy 
+
+ show logging 
+
+ show cli history detail 
+
+ show configuration commit list detail 
+
+ show reboot history location 0/RP0/CPU0  
+
+ show ztp information 
+
+ show ztp status 
