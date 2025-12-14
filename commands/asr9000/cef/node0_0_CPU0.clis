@@ -1,0 +1,210 @@
+
+--------------- List of CLIs in show tech-support cef ---------------
+
+ show cef summary location 0/0/CPU0 
+
+ show cef proc-fsm location 0/0/CPU0 
+
+ show cef message-queue location 0/0/CPU0 
+
+ show cef misc location 0/0/CPU0 
+
+ show cef imdr location 0/0/CPU0 
+
+ show cef issu location 0/0/CPU0 
+
+ show cef global clients location 0/0/CPU0 
+
+ show cef global retry-db location 0/0/CPU0 
+
+ show cef exceptions location 0/0/CPU0 
+
+ show cef drops location 0/0/CPU0 
+
+ show cef encap-id conflict detail location 0/0/CPU0 
+
+ show process blocked location 0/0/CPU0 
+
+ show cef resource detail location 0/0/CPU0 
+
+ show mem summary location 0/0/CPU0 
+
+ show cef ext-client location 0/0/CPU0 
+
+ show cef ipv6 ext-client location 0/0/CPU0 
+
+ show shmwin summary location 0/0/CPU0 
+
+ show cef ipv4 summary location 0/0/CPU0 
+
+ show cef ipv4 unresolved location 0/0/CPU0 
+
+ show cef ipv4 bgp-attribute summary location 0/0/CPU0 
+
+ show cef ipv4 generic-interface-list location 0/0/CPU0 
+
+ show cef ipv4 tables summary location 0/0/CPU0 
+
+ show cef ipv4 tables location 0/0/CPU0 
+
+ show cef ipv6 summary location 0/0/CPU0 
+
+ show cef ipv6 unresolved location 0/0/CPU0 
+
+ show cef ipv6 bgp-attribute summary location 0/0/CPU0 
+
+ show cef ipv6 generic-interface-list location 0/0/CPU0 
+
+ show cef ipv6 tables summary location 0/0/CPU0 
+
+ show cef ipv6 tables location 0/0/CPU0 
+
+ show cef vrf all ipv4 summary location 0/0/CPU0 
+
+ show cef vrf all ipv4 unresolved location 0/0/CPU0 
+
+ show cef vrf all ipv4 bgp-attribute summary location 0/0/CPU0 
+
+ show cef vrf all ipv6 summary location 0/0/CPU0 
+
+ show cef vrf all ipv6 unresolved location 0/0/CPU0 
+
+ show cef vrf all ipv6 bgp-attribute summary location 0/0/CPU0 
+
+ show cef trace location 0/0/CPU0 
+
+ show cef mpls interface location 0/0/CPU0 
+
+ show cef mpls adjacency location 0/0/CPU0 
+
+ show cef mpls unresolved 
+
+ show cef ipv4 drops location 0/0/CPU0 
+
+ show cef ipv4 exceptions 
+
+ show cef ipv4 retry-db location 0/0/CPU0 
+
+ show cef fast-reroute-log location 0/0/CPU0 
+
+ show cef fast-reroute-db location 0/0/CPU0 
+
+ show cef ipv4 pathlist-db shared detail location 0/0/CPU0 
+
+ show cef ipv4 pathlist-db exclusive detail location 0/0/CPU0 
+
+ show cef ipv4 object-queue location 0/0/CPU0 
+
+ show cef ipv4 resource oor location 0/0/CPU0 
+
+ show cef ipv6 drops location 0/0/CPU0 
+
+ show cef ipv6 exceptions 
+
+ show cef ipv6 retry-db location 0/0/CPU0 
+
+ show cef ipv6 fast-reroute-log location 0/0/CPU0 
+
+ show cef ipv6 fast-reroute-db location 0/0/CPU0 
+
+ show cef ipv6 pathlist-db shared detail location 0/0/CPU0 
+
+ show cef ipv6 pathlist-db exclusive detail location 0/0/CPU0 
+
+ show cef ipv6 object-queue location 0/0/CPU0 
+
+ show cef ipv6 resource oor location 0/0/CPU0 
+
+ show cef mpls fast-reroute-log location 0/0/CPU0 
+
+ show cef mpls fast-reroute-db location 0/0/CPU0 
+
+ show arp location 0/0/CPU0 
+
+ show arp traffic location 0/0/CPU0 
+
+ show cef ipv4 adjacency detail location 0/0/CPU0 
+
+ show cef ipv4 recursive-nexthop 
+
+ show cef ipv4 local-label conflicts detail 
+
+ show ipv4 trace location 0/0/CPU0 
+
+ show ipv6 neighbors location 0/0/CPU0 
+
+ show adjacency ipv6 detail location 0/0/CPU0 
+
+ show adjacency ipv6 remote detail location 0/0/CPU0 
+
+ show cef ipv6 adjacency detail location 0/0/CPU0 
+
+ show cef ipv6 recursive-nexthop 
+
+ show cef ipv6 local-label conflicts detail 
+
+ show ipv6 trace ma location 0/0/CPU0 
+
+ show cef mpls adjacency detail location 0/0/CPU0 
+
+ show cef object-queue queue-id 2 detail location 0/0/CPU0 
+
+ show cef object-queue queue-id 27 detail location 0/0/CPU0 
+
+ run cat /tmp/fib_table_recycle_ipv6.log location 0/0/CPU0 
+
+ run cat /dev/shmem/fib_idb_recycle_ipv4 location 0/0/CPU0 
+
+ run cat /dev/shmem/fib_idb_recycle_ipv6 location 0/0/CPU0 
+
+ run cat /dev/shmem/fib_idb_recycle_mpls location 0/0/CPU0 
+
+ follow process 6486 iteration 5 verbose 
+
+ show processes aib location 0/0/CPU0 
+
+ show adjacency internal detail location 0/0/CPU0 
+
+ show adjacency remote internal detail location 0/0/CPU0 
+
+ show adjacency producer detail location 0/0/CPU0 
+
+ show adjacency consumer detail location 0/0/CPU0 
+
+ show adjacency internal idb detail location 0/0/CPU0 
+
+ show adjacency internal hash detail location 0/0/CPU0 
+
+ show adjacency quarantine-list detail location 0/0/CPU0 
+
+ show adjacency quarantine-list remote detail location 0/0/CPU0 
+
+ show adjacency quarantine-list client-info detail location 0/0/CPU0 
+
+ show adjacency quarantine-list remote client-info detail location 0/0/CPU0 
+
+ show adjacency producer-list detail location 0/0/CPU0 
+
+ show adjacency internal idb location 0/0/CPU0 
+
+ show adjacency trace all location 0/0/CPU0 
+
+ show im database detail view owner location 0/0/CPU0 
+
+ show processes mpls_io location 0/0/CPU0 
+
+ show processes mpls_io_ea location 0/0/CPU0 
+
+ show mpls ma interfaces location 0/0/CPU0 
+
+ show mpls ea interfaces location 0/0/CPU0 
+
+ show im database brief location 0/0/CPU0 
+
+ show adjacency producer location 0/0/CPU0 
+
+ show adjacency internal location 0/0/CPU0 
+
+ show adjacency remote internal location 0/0/CPU0 
+
+ show mpls io trace location 0/0/CPU0 

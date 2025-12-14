@@ -1,0 +1,34 @@
+
+--------------- List of CLIs in show tech-support cef-platform ---------------
+
+ show clock 
+
+ show version 
+
+ show platform 
+
+ show install active 
+
+ show logging process fib_mgr 
+
+ show route ipv4 summary 
+
+ show route ipv6 summary 
+
+ show running-config 
+
+ show bgp summary 
+
+ show bgp neighbor 
+
+ show bgp vrf all summary 
+
+ show bgp vrf all neighbors 
+
+ show bgp vpnv4 unicast 
+
+ show bgp vpnv4 unicast labels 
+
+ show mpls forwarding detail 
+
+ show mpls forwarding private 

@@ -1,0 +1,40 @@
+
+--------------- List of CLIs in show tech-support cef ---------------
+
+ show version 
+
+ show install active 
+
+ show log 
+
+ show redundancy location all 
+
+ show route ipv4 summary 
+
+ show rib ipv4 clients 
+
+ show route ipv6 summary 
+
+ show rib ipv6 clients 
+
+ show rsi vrf all location 0/RP0/CPU0 
+
+ show route vrf all ipv4 summary 
+
+ show route vrf all ipv6 summary 
+
+ show rib vrf all ipv6 opaques tunnel-nexthop 
+
+ show rib vrf all ipv6 opaques ipfrr 
+
+ show mpls forwarding summary 
+
+ show bcdlv2 consumers 
+
+ show bcdl table 
+
+ show running-config 
+
+ show logging 
+
+ show platform 

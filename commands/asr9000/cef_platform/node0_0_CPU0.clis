@@ -1,0 +1,28 @@
+
+--------------- List of CLIs in show tech-support cef-platform ---------------
+
+ show cef platform resource summary location 0/0/CPU0  
+
+ show cef platform trace all all location 0/0/CPU0  
+
+ show controllers np fast-drop all location 0/0/CPU0  
+
+ show controllers np counters all location 0/0/CPU0  
+
+ show cef platform internal-stats show location 0/0/CPU0  
+
+ show cef platform event stats location 0/0/CPU0  
+
+ show drops all ongoing location 0/0/CPU0  
+
+ show drops all location 0/0/CPU0  
+
+ show im database location location 0/0/CPU0  
+
+ show ipv4 trace error location 0/0/CPU0  
+
+ show ipv4 trace packet-error location 0/0/CPU0  
+
+ show ipv6 trace io error location 0/0/CPU0  
+
+ show ipv6 trace ea location 0/0/CPU0  

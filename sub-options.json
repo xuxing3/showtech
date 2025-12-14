@@ -3,14 +3,27 @@
     { "name": "bfd", "description": "Output show commands for BFD debugging" },
     { "name": "bgp", "description": "Output show commands for BGP debugging" },
     { "name": "eigrp", "description": "EIGRP show tech-support output" },
-    { "name": "isis", "description": "Show IS-IS-related diagnostics for Tech-support" },
+    {
+      "name": "isis",
+      "description": "Show IS-IS-related diagnostics for Tech-support"
+    },
     { "name": "ospf", "description": "OSPF show tech-support output" },
     { "name": "ospfv3", "description": "OSPFv3 show tech-support output" },
     { "name": "rpl", "description": "RPL show tech-support output" }
   ],
   "access-lists": [
-    { "name": "ethernet-services", "description": "show tech-support info on ethernet-services access lists(cisco-support)" },
-    { "name": "ipv4", "description": "show tech-support info on IPv4 access-lists(cisco-support)" },
-    { "name": "ipv6", "description": "show tech-support info on IPv6 access-lists" }
-  ]
+    {
+      "name": "ethernet-services",
+      "description": "show tech-support info on ethernet-services access lists(cisco-support)"
+    },
+    {
+      "name": "ipv4",
+      "description": "show tech-support info on IPv4 access-lists(cisco-support)"
+    },
+    {
+      "name": "ipv6",
+      "description": "show tech-support info on IPv6 access-lists"
+    }
+  ],
+  "cef": [{ "name": "platform", "description": "Platform CEF related logs" }]
 }

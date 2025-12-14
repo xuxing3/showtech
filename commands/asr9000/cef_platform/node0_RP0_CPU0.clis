@@ -1,0 +1,26 @@
+
+--------------- List of CLIs in show tech-support cef-platform ---------------
+
+ show af-ea ipv4 trace errors location 0/RP0/CPU0  
+
+ show af-ea ipv4 trace events location 0/RP0/CPU0  
+
+ show af-ea ipv6 trace errors location 0/RP0/CPU0  
+
+ show af-ea ipv6 trace events location 0/RP0/CPU0  
+
+ show ipv6 trace netio location 0/RP0/CPU0  
+
+ show drops all ongoing location 0/RP0/CPU0  
+
+ show drops all location 0/RP0/CPU0  
+
+ show im database location location 0/RP0/CPU0  
+
+ show ipv4 trace error location 0/RP0/CPU0  
+
+ show ipv4 trace packet-error location 0/RP0/CPU0  
+
+ show ipv6 trace io error location 0/RP0/CPU0  
+
+ show ipv6 trace ea location 0/RP0/CPU0  
