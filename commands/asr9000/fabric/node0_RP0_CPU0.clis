@@ -1,0 +1,838 @@
+
+--------------- List of CLIs in show tech-support fabric ---------------
+
+ sh controllers fabric fia stats location 0/RP0/CPU0 
+
+ sh controllers fabric fia link-status location 0/RP0/CPU0 
+
+ sh controller fabric fia bridge stats location 0/RP0/CPU0 
+
+ sh controller fabric fia bridge flow-control location 0/RP0/CPU0 
+
+ sh controllers fabric fia bridge sync-status location 0/RP0/CPU0 
+
+ sh controllers fabric fia bridge ddr-status location 0/RP0/CPU0 
+
+ sh controller fabric fia trace location 0/RP0/CPU0 
+
+ sh controller fabric fia errors egress location 0/RP0/CPU0 
+
+ sh controller fabric fia errors ingress location 0/RP0/CPU0 
+
+ sh controller fabric fia drops egress location 0/RP0/CPU0 
+
+ sh controller fabric fia drops ingress location 0/RP0/CPU0 
+
+ sh controller fabric fia q-depth location 0/RP0/CPU0 
+
+ sh controller fabric fia sequence-timeout location 0/RP0/CPU0 
+
+ sh controller fabric fia q-depth sort location 0/RP0/CPU0 
+
+ sh controller fabric fia drops vqi-drop location 0/RP0/CPU0 
+
+ sh contr fabric arb ltrace 
+
+ xbar init trace 
+
+ xbar error trace 
+
+ xbar-port init trace 
+
+ xbar-port error trace 
+
+ fia-port init trace 
+
+ fia-port error trace 
+
+ xbar-serdes init trace 
+
+ xbar-serdes error trace 
+
+ fia-serdes init trace 
+
+ fia-serdes error trace 
+
+ lightning trace 
+
+ sh contr fabric arbiter link-status location 0/RP0/CPU0 
+
+ skybolt xbar init trace 
+
+ skybolt xbar error trace 
+
+ lsq fia-serdes init trace 
+
+ lsq fia-serdes error trace 
+
+ skb xbar-serdes init trace 
+
+ skb xbar-serdes error trace 
+
+ lsq fia-port init trace 
+
+ lsq fia-port error trace 
+
+ skb xbar-port init trace 
+
+ skb xbar-port error trace 
+
+ tor arb agg trace 
+
+ lsp fia-serdes init trace 
+
+ lsp fia-serdes error trace 
+
+ sh contr fabric crossbar statistics instance 0 location 0/RP0/CPU0 
+
+ sh contr fabric crossbar link-status inst 0 location 0/RP0/CPU0 
+
+ sh contr fabric crossbar statistics instance 1 location 0/RP0/CPU0 
+
+ sh contr fabric crossbar link-status inst 1 location 0/RP0/CPU0 
+
+ show controllers fabric ltrace crossbar location 0/RP0/CPU0 
+
+ sh controllers fti trace process fialc location 0/RP0/CPU0 
+
+ sh controllers fti trace process fab_xbar location 0/RP0/CPU0 
+
+ sh controllers fti trace process fab_arb location 0/RP0/CPU0 
+
+ show contr fabric crossbar mac-stats instance 0 location 0/RP0/CPU0 
+
+ show contr fabric crossbar mac-stats instance 1 location 0/RP0/CPU0 
+
+ sh controller fabric health location 0/RP0/CPU0 
+
+ sh asic-errors all detail location 0/RP0/CPU0 
+
+ show reboot history location 0/RP0/CPU0 
+
+ sh controllers asic lsp-fIA instance 0 block-name fnc register-name uncorr location 0/RP0/CPU0 
+
+ sh controllers mgidprgm trace init location 0/RP0/CPU0 
+
+ sh controllers mgidprgm trace event location 0/RP0/CPU0 
+
+ sh controllers mgidprgm trace error location 0/RP0/CPU0 
+
+ sh contr fabric crossbar link-status instanc 0 location 0/RP0/CPU0 
+
+ sh contr fabric crossbar link-status instanc 1 location 0/RP0/CPU0 
+
+ show controller fabric fia information location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 0 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 1 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 2 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 3 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 4 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 5 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 6 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 7 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 8 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 9 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 10 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 11 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 12 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 13 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 14 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 15 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 16 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 17 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 18 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 19 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 20 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 21 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 22 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 23 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 24 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter q-depth port-group 25 location 0/RP0/CPU0 
+
+ show controllers fabricmgr trace cxbar 
+
+ show controllers fabricmgr trace init 
+
+ show controllers fabricmgr trace error 
+
+ show controllers fabricmgr trace carb 
+
+ show controllers fabricmgr trace int_lxbar 
+
+ show controllers fabricmgr trace int_larb 
+
+ show controllers fabricmgr trace ext_cxbar 
+
+ show controllers fabricmgr trace ext_carb 
+
+ show controllers fabricmgr trace node_glob 
+
+ show controllers fabricmgr status node all 
+
+ show controllers fabricmgr status spine 
+
+ sh contr fabric vqi trace location all 
+
+ sh controller fabric health spine all 
+
+ show controllers fabricmgr trace log_cxbar 
+
+ show controllers fabricmgr trace log_carb 
+
+ show controllers fabric ltrace crossbar 
+
+ show controllers fabric crossbar statistics instance 0 location 0/RP0/CPU0 
+
+ show controllers fabric crossbar statistics instance 1 location 0/RP0/CPU0 
+
+ sh controllers fabric crossbar mac-stats instance 0 location 0/RP0/CPU0 
+
+ sh controllers fabric crossbar mac-stats instance 1 location 0/RP0/CPU0 
+
+ show controllers fabric crossbar statistics instance 0 spine 0 
+
+ show controllers fabric crossbar statistics instance 0 spine 1 
+
+ show controllers fabric crossbar statistics instance 0 spine 2 
+
+ show controllers fabric crossbar statistics instance 0 spine 3 
+
+ show controllers fabric crossbar statistics instance 0 spine 4 
+
+ show controllers fabric crossbar statistics instance 0 spine 5 
+
+ show controllers fabric crossbar statistics instance 0 spine 6 
+
+ show controllers fabric crossbar statistics instance 1 spine 0 
+
+ show controllers fabric crossbar statistics instance 1 spine 1 
+
+ show controllers fabric crossbar statistics instance 1 spine 2 
+
+ show controllers fabric crossbar statistics instance 1 spine 3 
+
+ show controllers fabric crossbar statistics instance 1 spine 4 
+
+ show controllers fabric crossbar statistics instance 1 spine 5 
+
+ show controllers fabric crossbar statistics instance 1 spine 6 
+
+ sh controllers fabric crossbar mac-stats instance 0 spine 0 
+
+ sh controllers fabric crossbar mac-stats instance 0 spine 1 
+
+ sh controllers fabric crossbar mac-stats instance 0 spine 2 
+
+ sh controllers fabric crossbar mac-stats instance 0 spine 3 
+
+ sh controllers fabric crossbar mac-stats instance 0 spine 4 
+
+ sh controllers fabric crossbar mac-stats instance 0 spine 5 
+
+ sh controllers fabric crossbar mac-stats instance 0 spine 6 
+
+ sh controllers fabric crossbar mac-stats instance 1 spine 0 
+
+ sh controllers fabric crossbar mac-stats instance 1 spine 1 
+
+ sh controllers fabric crossbar mac-stats instance 1 spine 2 
+
+ sh controllers fabric crossbar mac-stats instance 1 spine 3 
+
+ sh controllers fabric crossbar mac-stats instance 1 spine 4 
+
+ sh controllers fabric crossbar mac-stats instance 1 spine 5 
+
+ sh controllers fabric crossbar mac-stats instance 1 spine 6 
+
+ sh contr fabric crossbar link-status inst 0 spine 0 
+
+ sh contr fabric crossbar link-status inst 0 spine 1 
+
+ sh contr fabric crossbar link-status inst 0 spine 2 
+
+ sh contr fabric crossbar link-status inst 0 spine 3 
+
+ sh contr fabric crossbar link-status inst 0 spine 4 
+
+ sh contr fabric crossbar link-status inst 0 spine 5 
+
+ sh contr fabric crossbar link-status inst 0 spine 6 
+
+ show controllers fabric crossbar link-status instance 1 spine 0 
+
+ show controllers fabric crossbar link-status instance 1 spine 1 
+
+ show controllers fabric crossbar link-status instance 1 spine 2 
+
+ show controllers fabric crossbar link-status instance 1 spine 3 
+
+ show controllers fabric crossbar link-status instance 1 spine 4 
+
+ show controllers fabric crossbar link-status instance 1 spine 5 
+
+ show controllers fabric crossbar link-status instance 1 spine 6 
+
+ sh contr fabric crossbar chico3 ltrace spine 0 
+
+ sh contr fabric crossbar chico3 ltrace spine 1 
+
+ sh contr fabric crossbar chico3 ltrace spine 2 
+
+ sh contr fabric crossbar chico3 ltrace spine 3 
+
+ sh contr fabric crossbar chico3 ltrace spine 4 
+
+ sh contr fabric crossbar chico3 ltrace spine 5 
+
+ sh contr fabric crossbar chico3 ltrace spine 6 
+
+ FC0 xbar init trace 
+
+ FC0 xbar error trace 
+
+ FC1 xbar init trace 
+
+ FC1 xbar error trace 
+
+ FC2 xbar init trace 
+
+ FC2 xbar error trace 
+
+ FC3 xbar init trace 
+
+ FC3 xbar error trace 
+
+ FC4 xbar init trace 
+
+ FC4 xbar error trace 
+
+ FC5 xbar init trace 
+
+ FC5 xbar error trace 
+
+ FC6 xbar init trace 
+
+ FC6 xbar error trace 
+
+ FC0 xbar-port init trace 
+
+ FC0 xbar-port error trace 
+
+ FC1 xbar-port init trace 
+
+ FC1 xbar-port error trace 
+
+ FC2 xbar-port init trace 
+
+ FC2 xbar-port error trace 
+
+ FC3 xbar-port init trace 
+
+ FC3 xbar-port error trace 
+
+ FC4 xbar-port init trace 
+
+ FC4 xbar-port error trace 
+
+ FC5 xbar-port init trace 
+
+ FC5 xbar-port error trace 
+
+ FC6 xbar-port init trace 
+
+ FC6 xbar-port error trace 
+
+ FC0 xbar-serdes init trace 
+
+ FC0 xbar-serdes error trace 
+
+ FC1 xbar-serdes init trace 
+
+ FC1 xbar-serdes error trace 
+
+ FC2 xbar-serdes init trace 
+
+ FC2 xbar-serdes error trace 
+
+ FC3 xbar-serdes init trace 
+
+ FC3 xbar-serdes error trace 
+
+ FC4 xbar-serdes init trace 
+
+ FC4 xbar-serdes error trace 
+
+ FC5 xbar-serdes init trace 
+
+ FC5 xbar-serdes error trace 
+
+ FC6 xbar-serdes init trace 
+
+ FC6 xbar-serdes error trace 
+
+ show contr fabric ltrace spine-crossbar spine 0 
+
+ show contr fabric ltrace spine-crossbar spine 1 
+
+ show contr fabric ltrace spine-crossbar spine 2 
+
+ show contr fabric ltrace spine-crossbar spine 3 
+
+ show contr fabric ltrace spine-crossbar spine 4 
+
+ show contr fabric ltrace spine-crossbar spine 5 
+
+ show contr fabric ltrace spine-crossbar spine 6 
+
+ sh controllers fabric ltrace crossbar 
+
+ FC0 skybolt xbar init trace 
+
+ FC0 skybolt xbar error trace 
+
+ FC1 skybolt xbar init trace 
+
+ FC1 skybolt xbar error trace 
+
+ FC2 skybolt xbar init trace 
+
+ FC2 skybolt xbar error trace 
+
+ FC3 skybolt xbar init trace 
+
+ FC3 skybolt xbar error trace 
+
+ FC4 skybolt xbar init trace 
+
+ FC4 skybolt xbar error trace 
+
+ FC5 skybolt xbar init trace 
+
+ FC5 skybolt xbar error trace 
+
+ FC6 skybolt xbar init trace 
+
+ FC6 skybolt xbar error trace 
+
+ FC0 skb xbar-port init trace 
+
+ FC0 skb xbar-port error trace 
+
+ FC1 skb xbar-port init trace 
+
+ FC1 skb xbar-port error trace 
+
+ FC2 skb xbar-port init trace 
+
+ FC2 skb xbar-port error trace 
+
+ FC3 skb xbar-port init trace 
+
+ FC3 skb xbar-port error trace 
+
+ FC4 skb xbar-port init trace 
+
+ FC4 skb xbar-port error trace 
+
+ FC5 skb xbar-port init trace 
+
+ FC5 skb xbar-port error trace 
+
+ FC6 skb xbar-port init trace 
+
+ FC6 skb xbar-port error trace 
+
+ FC0 skb xbar-serdes init trace 
+
+ FC0 skb xbar-serdes error trace 
+
+ FC1 skb xbar-serdes init trace 
+
+ FC1 skb xbar-serdes error trace 
+
+ FC2 skb xbar-serdes init trace 
+
+ FC2 skb xbar-serdes error trace 
+
+ FC3 skb xbar-serdes init trace 
+
+ FC3 skb xbar-serdes error trace 
+
+ FC4 skb xbar-serdes init trace 
+
+ FC4 skb xbar-serdes error trace 
+
+ FC5 skb xbar-serdes init trace 
+
+ FC5 skb xbar-serdes error trace 
+
+ FC6 skb xbar-serdes init trace 
+
+ FC6 skb xbar-serdes error trace 
+
+ sh contr fabric plane all 
+
+ sh contr fabric arbiter credit-usage linecard-location 0/0/CPU0 location 0/RP0/CPU0 
+
+ show controllers pm vqi location 0/0/CPU0 
+
+ sh contr fabric arbiter credit-usage linecard-location 0/1/CPU0 location 0/RP0/CPU0 
+
+ show controllers pm vqi location 0/1/CPU0 
+
+ sh contr fabric arbiter credit-usage linecard-location 0/2/CPU0 location 0/RP0/CPU0 
+
+ show controllers pm vqi location 0/2/CPU0 
+
+ sh contr fabric arbiter credit-usage linecard-location 0/5/CPU0 location 0/RP0/CPU0 
+
+ show controllers pm vqi location 0/5/CPU0 
+
+ sh contr fabric arbiter credit-usage linecard-location 0/6/CPU0 location 0/RP0/CPU0 
+
+ show controllers pm vqi location 0/6/CPU0 
+
+ sh contr fabric arbiter credit-usage linecard-location 0/7/CPU0 location 0/RP0/CPU0 
+
+ show controllers pm vqi location 0/7/CPU0 
+
+ sh contr fabric arbiter credit-usage linecard-location 0/13/CPU0 location 0/RP0/CPU0 
+
+ show controllers pm vqi location 0/13/CPU0 
+
+ sh contr fabric arb link 0x0 location 0/RP0/CPU0 
+
+ sh contr fabric fpoe base slot 0x0 
+
+ sh contr fabric fabric vqi assignment slot 0x0 
+
+ sh contr fabric arbiter vqitable 0x0 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter lditable 0x0 location 0/RP0/CPU0 
+
+ sh contr fabric arb link 0x1 location 0/RP0/CPU0 
+
+ sh contr fabric fpoe base slot 0x1 
+
+ sh contr fabric fabric vqi assignment slot 0x1 
+
+ sh contr fabric arbiter vqitable 0x1 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter lditable 0x1 location 0/RP0/CPU0 
+
+ sh contr fabric arb link 0x2 location 0/RP0/CPU0 
+
+ sh contr fabric fpoe base slot 0x2 
+
+ sh contr fabric fabric vqi assignment slot 0x2 
+
+ sh contr fabric arbiter vqitable 0x2 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter lditable 0x2 location 0/RP0/CPU0 
+
+ sh contr fabric arb link 0x3 location 0/RP0/CPU0 
+
+ sh contr fabric fpoe base slot 0x3 
+
+ sh contr fabric fabric vqi assignment slot 0x3 
+
+ sh contr fabric arbiter vqitable 0x3 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter lditable 0x3 location 0/RP0/CPU0 
+
+ sh contr fabric arb link 0x4 location 0/RP0/CPU0 
+
+ sh contr fabric fpoe base slot 0x4 
+
+ sh contr fabric fabric vqi assignment slot 0x4 
+
+ sh contr fabric arbiter vqitable 0x4 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter lditable 0x4 location 0/RP0/CPU0 
+
+ sh contr fabric arb link 0x5 location 0/RP0/CPU0 
+
+ sh contr fabric fpoe base slot 0x5 
+
+ sh contr fabric fabric vqi assignment slot 0x5 
+
+ sh contr fabric arbiter vqitable 0x5 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter lditable 0x5 location 0/RP0/CPU0 
+
+ sh contr fabric arb link 0x6 location 0/RP0/CPU0 
+
+ sh contr fabric fpoe base slot 0x6 
+
+ sh contr fabric fabric vqi assignment slot 0x6 
+
+ sh contr fabric arbiter vqitable 0x6 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter lditable 0x6 location 0/RP0/CPU0 
+
+ sh contr fabric arb link 0x7 location 0/RP0/CPU0 
+
+ sh contr fabric fpoe base slot 0x7 
+
+ sh contr fabric fabric vqi assignment slot 0x7 
+
+ sh contr fabric arbiter vqitable 0x7 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter lditable 0x7 location 0/RP0/CPU0 
+
+ sh contr fabric arb link 0x8 location 0/RP0/CPU0 
+
+ sh contr fabric fpoe base slot 0x8 
+
+ sh contr fabric fabric vqi assignment slot 0x8 
+
+ sh contr fabric arbiter vqitable 0x8 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter lditable 0x8 location 0/RP0/CPU0 
+
+ sh contr fabric arb link 0x9 location 0/RP0/CPU0 
+
+ sh contr fabric fpoe base slot 0x9 
+
+ sh contr fabric fabric vqi assignment slot 0x9 
+
+ sh contr fabric arbiter vqitable 0x9 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter lditable 0x9 location 0/RP0/CPU0 
+
+ sh contr fabric arb link 0xa location 0/RP0/CPU0 
+
+ sh contr fabric fpoe base slot 0xa 
+
+ sh contr fabric fabric vqi assignment slot 0xa 
+
+ sh contr fabric arbiter vqitable 0xa location 0/RP0/CPU0 
+
+ sh contr fabric arbiter lditable 0xa location 0/RP0/CPU0 
+
+ sh contr fabric arb link 0xb location 0/RP0/CPU0 
+
+ sh contr fabric fpoe base slot 0xb 
+
+ sh contr fabric fabric vqi assignment slot 0xb 
+
+ sh contr fabric arbiter vqitable 0xb location 0/RP0/CPU0 
+
+ sh contr fabric arbiter lditable 0xb location 0/RP0/CPU0 
+
+ sh contr fabric arb link 0xc location 0/RP0/CPU0 
+
+ sh contr fabric fpoe base slot 0xc 
+
+ sh contr fabric fabric vqi assignment slot 0xc 
+
+ sh contr fabric arbiter vqitable 0xc location 0/RP0/CPU0 
+
+ sh contr fabric arbiter lditable 0xc location 0/RP0/CPU0 
+
+ sh contr fabric arb link 0xd location 0/RP0/CPU0 
+
+ sh contr fabric fpoe base slot 0xd 
+
+ sh contr fabric fabric vqi assignment slot 0xd 
+
+ sh contr fabric arbiter vqitable 0xd location 0/RP0/CPU0 
+
+ sh contr fabric arbiter lditable 0xd location 0/RP0/CPU0 
+
+ sh contr fabric arb link 0xe location 0/RP0/CPU0 
+
+ sh contr fabric fpoe base slot 0xe 
+
+ sh contr fabric fabric vqi assignment slot 0xe 
+
+ sh contr fabric arbiter vqitable 0xe location 0/RP0/CPU0 
+
+ sh contr fabric arbiter lditable 0xe location 0/RP0/CPU0 
+
+ sh contr fabric arb link 0xf location 0/RP0/CPU0 
+
+ sh contr fabric fpoe base slot 0xf 
+
+ sh contr fabric fabric vqi assignment slot 0xf 
+
+ sh contr fabric arbiter vqitable 0xf location 0/RP0/CPU0 
+
+ sh contr fabric arbiter lditable 0xf location 0/RP0/CPU0 
+
+ sh contr fabric arb link 0x10 location 0/RP0/CPU0 
+
+ sh contr fabric fpoe base slot 0x10 
+
+ sh contr fabric fabric vqi assignment slot 0x10 
+
+ sh contr fabric arbiter vqitable 0x10 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter lditable 0x10 location 0/RP0/CPU0 
+
+ sh contr fabric arb link 0x11 location 0/RP0/CPU0 
+
+ sh contr fabric fpoe base slot 0x11 
+
+ sh contr fabric fabric vqi assignment slot 0x11 
+
+ sh contr fabric arbiter vqitable 0x11 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter lditable 0x11 location 0/RP0/CPU0 
+
+ sh contr fabric arb link 0x12 location 0/RP0/CPU0 
+
+ sh contr fabric fpoe base slot 0x12 
+
+ sh contr fabric fabric vqi assignment slot 0x12 
+
+ sh contr fabric arbiter vqitable 0x12 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter lditable 0x12 location 0/RP0/CPU0 
+
+ sh contr fabric arb link 0x13 location 0/RP0/CPU0 
+
+ sh contr fabric fpoe base slot 0x13 
+
+ sh contr fabric fabric vqi assignment slot 0x13 
+
+ sh contr fabric arbiter vqitable 0x13 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter lditable 0x13 location 0/RP0/CPU0 
+
+ sh contr fabric arb link 0x14 location 0/RP0/CPU0 
+
+ sh contr fabric fpoe base slot 0x14 
+
+ sh contr fabric fabric vqi assignment slot 0x14 
+
+ sh contr fabric arbiter vqitable 0x14 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter lditable 0x14 location 0/RP0/CPU0 
+
+ sh contr fabric arb link 0x15 location 0/RP0/CPU0 
+
+ sh contr fabric fpoe base slot 0x15 
+
+ sh contr fabric fabric vqi assignment slot 0x15 
+
+ sh contr fabric arbiter vqitable 0x15 location 0/RP0/CPU0 
+
+ sh contr fabric arbiter lditable 0x15 location 0/RP0/CPU0 
+
+ show mfib route summary 
+
+ show mfib vrf all route summary 
+
+ show mfib ipv6 route summary 
+
+ show mfib vrf all ipv6 route summary 
+
+ show cef vrf all summary location 0/RP0/CPU0 
+
+ show cef vrf all ipv6 summary location 0/RP0/CPU0 
+
+ show processes blocked location 0/RP0/CPU0 
+
+ show memory summary location 0/RP0/CPU0 
+
+ show processes memory detail location 0/RP0/CPU0 
+
+ show watchdog threshold memory default location 0/RP0/CPU0 
+
+ show watchdog threshold memory configured location 0/RP0/CPU0 
+
+ show watchdog memory-state location 0/RP0/CPU0 
+
+ show memory heap summary all location 0/RP0/CPU0 
+
+ show shmwin summary location 0/RP0/CPU0 
+
+ run bash /etc/init.d/topproc -c 20 
+
+ show drop location 0/RP0/CPU0 
+
+ show spp graph location 0/RP0/CPU0 
+
+ show spio platform client trace location 0/RP0/CPU0 
+
+ show spio platform clib trace location 0/RP0/CPU0 
+
+ show spp platform logged-contexts location 0/RP0/CPU0 
+
+ show spio platform ifmgr-lib trace location 0/RP0/CPU0 
+
+ show spio platform protocol all trace location 0/RP0/CPU0 
+
+ show adjacency hardware trace location 0/RP0/CPU0 
+
+ show spio platform ea trace location 0/RP0/CPU0 
+
+ show spio platform offload client-lib trace location 0/RP0/CPU0 
+
+ show spio platform offload lookup trace location 0/RP0/CPU0 
+
+ show drops all location 0/RP0/CPU0 
+
+ show spio platform pwhe-lib trace location 0/RP0/CPU0 
+
+ show netio driver trace location 0/RP0/CPU0 
+
+ spp_ui punt routing_protocols copp_enabled 
+
+ show adjacency hardware bvi trace location 0/RP0/CPU0 
+
+ show adjacency bvi-fia location 0/RP0/CPU0 
+
+ show spio platform ma trace location 0/RP0/CPU0 
+
+ show spio platform offload client-lib packet trace location 0/RP0/CPU0 
+
+ show spp interface location 0/RP0/CPU0 
+
+ show spp node-counters location 0/RP0/CPU0 
+
+ show spp node location 0/RP0/CPU0 
+
+ show spp sid stats location 0/RP0/CPU0 
+
+ show spp buffer location 0/RP0/CPU0 
+
+ show spp client punt status location 0/RP0/CPU0 
+
+ show spp client detail location 0/RP0/CPU0 
+
+ fwd-netio-debug 
+
+ show netio drops location 0/RP0/CPU0 
+
+ show spp packet-rate location 0/RP0/CPU0 
+
+ show drops all ongoing location 0/RP0/CPU0 

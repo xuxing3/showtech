@@ -1,0 +1,336 @@
+
+--------------- List of CLIs in show tech-support fabric ---------------
+
+ sh controllers fabric fia stats location 0/0/CPU0 
+
+ sh controllers fabric fia link-status location 0/0/CPU0 
+
+ sh controller fabric fia bridge stats location 0/0/CPU0 
+
+ sh controller fabric fia bridge flow-control location 0/0/CPU0 
+
+ sh controllers fabric fia bridge sync-status location 0/0/CPU0 
+
+ sh controllers fabric fia bridge ddr-status location 0/0/CPU0 
+
+ sh controller fabric fia trace location 0/0/CPU0 
+
+ sh controller fabric fia errors egress location 0/0/CPU0 
+
+ sh controller fabric fia errors ingress location 0/0/CPU0 
+
+ sh controller fabric fia drops egress location 0/0/CPU0 
+
+ sh controller fabric fia drops ingress location 0/0/CPU0 
+
+ sh controller fabric fia q-depth location 0/0/CPU0 
+
+ sh controller fabric fia sequence-timeout location 0/0/CPU0 
+
+ sh controller fabric fia q-depth sort location 0/0/CPU0 
+
+ sh controller fabric fia drops vqi-drop location 0/0/CPU0 
+
+ sh contr fabric arb ltrace 
+
+ xbar init trace 
+
+ xbar error trace 
+
+ xbar-port init trace 
+
+ xbar-port error trace 
+
+ fia-port init trace 
+
+ fia-port error trace 
+
+ xbar-serdes init trace 
+
+ xbar-serdes error trace 
+
+ fia-serdes init trace 
+
+ fia-serdes error trace 
+
+ lightning trace 
+
+ sh contr fabric arbiter link-status location 0/0/CPU0 
+
+ skybolt xbar init trace 
+
+ skybolt xbar error trace 
+
+ lsq fia-serdes init trace 
+
+ lsq fia-serdes error trace 
+
+ skb xbar-serdes init trace 
+
+ skb xbar-serdes error trace 
+
+ lsq fia-port init trace 
+
+ lsq fia-port error trace 
+
+ skb xbar-port init trace 
+
+ skb xbar-port error trace 
+
+ tor arb agg trace 
+
+ lsp fia-serdes init trace 
+
+ lsp fia-serdes error trace 
+
+ sh contr fabric crossbar statistics instance 0 location 0/0/CPU0 
+
+ sh contr fabric crossbar link-status inst 0 location 0/0/CPU0 
+
+ sh contr fabric crossbar statistics instance 1 location 0/0/CPU0 
+
+ sh contr fabric crossbar link-status inst 1 location 0/0/CPU0 
+
+ show controllers fabric ltrace crossbar location 0/0/CPU0 
+
+ sh controllers fti trace process fialc location 0/0/CPU0 
+
+ sh controllers fti trace process fab_xbar location 0/0/CPU0 
+
+ sh controllers fti trace process fab_arb location 0/0/CPU0 
+
+ show contr fabric crossbar mac-stats instance 0 location 0/0/CPU0 
+
+ show contr fabric crossbar mac-stats instance 1 location 0/0/CPU0 
+
+ sh controller fabric health location 0/0/CPU0 
+
+ sh asic-errors all detail location 0/0/CPU0 
+
+ show reboot history location 0/0/CPU0 
+
+ sh controllers asic lsp-fIA instance 0 block-name fnc register-name uncorr location 0/0/CPU0 
+
+ sh controllers mgidprgm trace init location 0/0/CPU0 
+
+ sh controllers mgidprgm trace event location 0/0/CPU0 
+
+ sh controllers mgidprgm trace error location 0/0/CPU0 
+
+ sh contr fabric crossbar link-status instanc 0 location 0/0/CPU0 
+
+ sh contr fabric crossbar link-status instanc 1 location 0/0/CPU0 
+
+ show controller fabric fia information location 0/0/CPU0 
+
+ show process 330 location 0/0/CPU0 
+
+ show dll pid 5817 location 0/0/CPU0 
+
+ follow process 5817 iteration 2 location 0/0/CPU0 
+
+ show process 196 location 0/0/CPU0 
+
+ show dll pid 5791 location 0/0/CPU0 
+
+ follow process 5791 iteration 2 location 0/0/CPU0 
+
+ show process 191 location 0/0/CPU0 
+
+ show dll pid 5831 location 0/0/CPU0 
+
+ follow process 5831 iteration 2 location 0/0/CPU0 
+
+ run top -b -n 2 -d 2 
+
+ show controllers np summary all location 0/0/CPU0 
+
+ show controllers np crashinfo all location 0/0/CPU0 
+
+ show controllers np counters all location 0/0/CPU0 
+
+ show controllers np fabric-counters all all location 0/0/CPU0 
+
+ show drops location 0/0/CPU0 
+
+ show controllers np ports all location 0/0/CPU0 
+
+ show controllers np portmap all location 0/0/CPU0 
+
+ show controllers np interrupts all all location 0/0/CPU0 
+
+ show controllers np soft-errors all all location 0/0/CPU0 
+
+ show prm server context location 0/0/CPU0 
+
+ show prm server clinfo location 0/0/CPU0 
+
+ show prm server tcam summary all all all location 0/0/CPU0 
+
+ show prm server trace init location 0/0/CPU0 
+
+ show prm server trace error location 0/0/CPU0 
+
+ show prm server trace event location 0/0/CPU0 
+
+ show prm server trace internal location 0/0/CPU0 
+
+ show prm server trace ucode location 0/0/CPU0 
+
+ show prm server trace oir location 0/0/CPU0 
+
+ show prm client trace error location 0/0/CPU0 
+
+ show prm client trace event location 0/0/CPU0 
+
+ show prm client trace init location 0/0/CPU0 
+
+ show prm stats summary location 0/0/CPU0 
+
+ show prm stats table all location 0/0/CPU0 
+
+ show prm stats segment all location 0/0/CPU0 
+
+ show prm stats client all location 0/0/CPU0 
+
+ show pfm location 0/0/CPU0 
+
+ show uidb index location 0/0/CPU0 
+
+ show uidb index summary location 0/0/CPU0 
+
+ show uidb trace init location 0/0/CPU0 
+
+ show uidb trace error location 0/0/CPU0 
+
+ show uidb trace events location 0/0/CPU0 
+
+ show ssmh-ltrace init location 0/0/CPU0 
+
+ show ssmh-ltrace event location 0/0/CPU0 
+
+ show ssmh-ltrace error location 0/0/CPU0 
+
+ run test_prm_srh -s 
+
+ run test_prm_srh -d 
+
+ run show_np -e 0 -d hist=60 
+
+ run show_np -e 1 -d hist=60 
+
+ run np_perf -e 0 
+
+ run np_perf -e 1 
+
+ show cef vrf all summary location 0/0/CPU0 
+
+ show cef vrf all ipv6 summary location 0/0/CPU0 
+
+ show processes blocked location 0/0/CPU0 
+
+ show memory summary location 0/0/CPU0 
+
+ show processes memory detail location 0/0/CPU0 
+
+ show watchdog threshold memory default location 0/0/CPU0 
+
+ show watchdog threshold memory configured location 0/0/CPU0 
+
+ show watchdog memory-state location 0/0/CPU0 
+
+ show memory heap summary all location 0/0/CPU0 
+
+ show shmwin summary location 0/0/CPU0 
+
+ run bash /etc/init.d/topproc -c 20 
+
+ show drop location 0/0/CPU0 
+
+ run ship_show -c prm-lib-stats 
+
+ run ship_show -c prm-lib-tcam 
+
+ run ship_show -c prm-lib-srh 
+
+ run ship_show -c prm-svr-stats 
+
+ run ship_show -c prm-svr-tcam 
+
+ run ship_show -c prm-svr-srh 
+
+ run ship_show -c uidb3 
+
+ run ship_show -c uidb2 
+
+ run ship_show -c uidb 
+
+ run ship_show -c uidb_client 
+
+ show spp graph location 0/0/CPU0 
+
+ show spio platform client trace location 0/0/CPU0 
+
+ show spio platform clib trace location 0/0/CPU0 
+
+ show spp platform logged-contexts location 0/0/CPU0 
+
+ show spio platform ifmgr-lib trace location 0/0/CPU0 
+
+ show spio platform protocol all trace location 0/0/CPU0 
+
+ show adjacency hardware trace location 0/0/CPU0 
+
+ show spio platform ea trace location 0/0/CPU0 
+
+ show spio platform offload client-lib trace location 0/0/CPU0 
+
+ show spio platform offload lookup trace location 0/0/CPU0 
+
+ show drops all location 0/0/CPU0 
+
+ show spio platform pwhe-lib trace location 0/0/CPU0 
+
+ show netio driver trace location 0/0/CPU0 
+
+ spp_ui punt routing_protocols copp_enabled 
+
+ show spio platform hw-offload ea trace location 0/0/CPU0 
+
+ show adjacency pit-trace location 0/0/CPU0 
+
+ show spio platform hw-offload client-lib trace location 0/0/CPU0 
+
+ show ethernet platform mac-filter trace location 0/0/CPU0 
+
+ show ethernet platform mac-filter summary location 0/0/CPU0 
+
+ show controllers np counters all 
+
+ show controllers np tm counters all 
+
+ show lpts pifib hardware static-police location 0/0/CPU0 
+
+ show lpts pifib hardware entry statistics location 0/0/CPU0 
+
+ show spp interface location 0/0/CPU0 
+
+ show spp node-counters location 0/0/CPU0 
+
+ show spp node location 0/0/CPU0 
+
+ show spp sid stats location 0/0/CPU0 
+
+ show spp buffer location 0/0/CPU0 
+
+ show spp client punt status location 0/0/CPU0 
+
+ show spp client detail location 0/0/CPU0 
+
+ fwd-netio-debug 
+
+ show netio drops location 0/0/CPU0 
+
+ show spp packet-rate location 0/0/CPU0 
+
+ show drops all ongoing location 0/0/CPU0 

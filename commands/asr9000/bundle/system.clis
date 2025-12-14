@@ -1,0 +1,70 @@
+
+--------------- List of CLIs in show tech-support bundle ---------------
+
+ show running-config 
+
+ show redundancy location all 
+
+ show logging 
+
+ show interface summary 
+
+ show install active 
+
+ show_tech_config_history script 
+
+ show bundle status detail 
+
+ show bundle infrastructure ea 
+
+ show bundle 
+
+ show bundle scheduled-actions 
+
+ show lacp 
+
+ show lacp counters 
+
+ show bundle infrastructure mac-allocation 
+
+ show bundle infrastructure lacp-io 
+
+ show lacp system-id all 
+
+ show bundle load-balancing brief 
+
+ show bundle infrastructure event 
+
+ show mlacp verbose 
+
+ show mlacp counters mbr-info 
+
+ show mlacp counters bdl-info 
+
+ show mlacp counters ig-info 
+
+ show bundle protect 
+
+ show ethernet trunk 
+
+ show ethernet trunk detail 
+
+ show ethernet tags 
+
+ show ethernet tags match-order 
+
+ show ethernet tags detail 
+
+ show ethernet driver internal ethlike-mib-stats detail 
+
+ show ethernet driver internal pfc-mib-api-stats detail 
+
+ show ethernet infra internal mac-mib-stats detail all 
+
+ show ethernet infra internal vlan-mib-stats detail all 
+
+ show ethernet mac-allocation clients 
+
+ show ethernet mac-allocation detail 
+
+ show processes ema_server_sdr 

@@ -1,0 +1,58 @@
+
+--------------- List of CLIs in show tech-support bundle ---------------
+
+ show processes blocked location 0/RP0/CPU0  
+
+ show context 
+
+ show bundle trace all 
+
+ show processes bundlemgr_adj 
+
+ show processes bundlemgr_local 
+
+ show processes bundlemgr_distrib 
+
+ show processes ema_server_sdr 
+
+ show bundle load-balancing detail 
+
+ show bundle infrastructure database ma 
+
+ show bundle infrastructure in-progress ma 
+
+ show ethernet driver trace location 0/RP0/CPU0  
+
+ show ethernet infra trace location 0/RP0/CPU0  
+
+ show processes ether_caps_partner 
+
+ show processes ether_sock 
+
+ show processes vlan_ma 
+
+ show processes vlan_ea 
+
+ show ethernet infra internal ether-ma global 
+
+ show ethernet infra internal ether-ma trunks 
+
+ show ethernet infra internal vlan-ma global 
+
+ show ethernet infra internal vlan-ma trunks 
+
+ show ethernet infra internal vlan-ma subs 
+
+ show ethernet infra internal ea global 
+
+ show ethernet infra internal ea trunks 
+
+ show ethernet infra internal ea subs 
+
+ show ethernet driver internal all driver-id all [location 0/RP0/CPU0 ] 
+
+ show ethernet driver api-stats location 0/RP0/CPU0  
+
+ show ethernet driver api-stats detail all location 0/RP0/CPU0  
+
+ show ethernet mac-allocation trace 

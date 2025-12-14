@@ -1,0 +1,40 @@
+
+--------------- List of CLIs in show tech-support arp ---------------
+
+ show arp-gmp trace all 
+
+ show arp-gmp config 
+
+ show arp-gmp routes 
+
+ show arp-gmp vrf 
+
+ show processes arp_gmp 
+
+ show system statistics component ipv4-arp 
+
+ show adjacency location all 
+
+ show cef 
+
+ show logging 
+
+ show running-config 
+
+ show cli history detail 
+
+ show version 
+
+ show install active 
+
+ show redundancy location all 
+
+ show platform 
+
+ show adjacency ipv4 internal detail location all 
+
+ show adjacency mpls internal detail location all 
+
+ show bundle 
+
+ show arp detail 

@@ -1,0 +1,68 @@
+
+--------------- List of CLIs in show tech-support bundle ---------------
+
+ show processes blocked location 0/0/CPU0  
+
+ show context 
+
+ show bundle trace all 
+
+ show processes bundlemgr_adj 
+
+ show processes bundlemgr_local 
+
+ show processes bundlemgr_checker 
+
+ show processes bundlemgr_ea 
+
+ show bundle infrastructure database ea 
+
+ show bundle infrastructure in-progress ea 
+
+ show controllers np configSram 
+
+ show ethernet driver trace location 0/0/CPU0  
+
+ show ethernet infra trace location 0/0/CPU0  
+
+ show processes ether_caps_partner 
+
+ show processes ether_sock 
+
+ show processes vlan_ma 
+
+ show processes vlan_ea 
+
+ show ethernet infra internal ether-ma global 
+
+ show ethernet infra internal ether-ma trunks 
+
+ show ethernet infra internal vlan-ma global 
+
+ show ethernet infra internal vlan-ma trunks 
+
+ show ethernet infra internal vlan-ma subs 
+
+ show ethernet infra internal ea global 
+
+ show ethernet infra internal ea trunks 
+
+ show ethernet infra internal ea subs 
+
+ show ethernet driver internal all driver-id all [location 0/0/CPU0 ] 
+
+ show ethernet driver api-stats location 0/0/CPU0  
+
+ show ethernet driver api-stats detail all location 0/0/CPU0  
+
+ show pos trace all 
+
+ show sonet-local trace info 
+
+ show sonet-local trace error 
+
+ show sonet-local trace frr 
+
+ show sonet-local trace init 
+
+ show sonet-local trace periodic 
